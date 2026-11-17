@@ -17,35 +17,11 @@
 
 > **모델을 학습시키는 데서 끝내지 않고, 누군가 실제로 실행해 볼 수 있는 형태까지 만듭니다.**
 
-<table>
-<tr>
-<td width="33%" valign="top">
-
-**🥊 Pose & Motion**
-
-웹캠 영상에서 관절 좌표를 뽑아 **동작을 실시간으로 인식**하고, 그 결과를 게임 입력으로 연결합니다.
-
-</td>
-<td width="33%" valign="top">
-
-**⚙️ Model to Service**
-
-Fine-tuning한 모델을 **FastAPI · Celery · Redis · PostgreSQL**로 서빙하고, 응답 시간과 테스트 결과를 기록합니다.
-
-</td>
-<td width="33%" valign="top">
-
-**📱 Real-time Apps**
-
-WebSocket 실시간 데이터를 다루는 **Android 오버레이 앱과 웹 버전**을 직접 만들어 배포하고 계속 고칩니다.
-
-</td>
-</tr>
-</table>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/about-dark.svg"/><img src="assets/about-light.svg" width="100%" alt="Pose & Motion · Model to Service · Real-time Apps"/></picture>
 
 <br/>
 
-## 📊 Highlights
+## ✨ Highlights
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/highlights-dark.svg"/><img src="assets/highlights-light.svg" width="100%" alt="어퍼컷 인식 37.3% → 91.0% · 콩잎 질병 분류 Test 정확도 0.72 → 0.98 · 동기 API 응답 22 ms · 기능 테스트 18 / 18"/></picture>
 
@@ -68,7 +44,7 @@ WebSocket 실시간 데이터를 다루는 **Android 오버레이 앱과 웹 버
 <tr><td width="96" nowrap><b>기술</b></td><td><code>Python</code> <code>MediaPipe</code> <code>1D-CNN</code> <code>Godot 4.6</code> <code>UDP</code></td></tr>
 </table>
 
-<a href="https://github.com/wlgptjd333/body-hero"><b>GitHub ↗</b></a> &nbsp;&nbsp; <a href="https://github.com/wlgptjd333/body-hero/releases/latest"><b>Download ↗</b></a>
+<a href="https://github.com/wlgptjd333/body-hero"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-github-dark.svg"/><img src="assets/btn-github-light.svg" height="36" alt="GitHub"/></picture></a> <a href="https://github.com/wlgptjd333/body-hero/releases/latest"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-download-dark.svg"/><img src="assets/btn-download-light.svg" height="36" alt="Download"/></picture></a>
 
 <div align="right"><a href="#top"><sub><b>↑ 맨 위로</b></sub></a></div>
 
@@ -84,7 +60,7 @@ WebSocket 실시간 데이터를 다루는 **Android 오버레이 앱과 웹 버
 <tr><td width="96" nowrap><b>기술</b></td><td><code>PyTorch</code> <code>Transformers</code> <code>FastAPI</code> <code>Celery</code> <code>Redis</code> <code>PostgreSQL</code> <code>Docker</code></td></tr>
 </table>
 
-<a href="https://github.com/wlgptjd333/bean-leaf-disease-api"><b>GitHub ↗</b></a>
+<a href="https://github.com/wlgptjd333/bean-leaf-disease-api"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-github-dark.svg"/><img src="assets/btn-github-light.svg" height="36" alt="GitHub"/></picture></a>
 
 <div align="right"><a href="#top"><sub><b>↑ 맨 위로</b></sub></a></div>
 
@@ -99,7 +75,7 @@ WebSocket 실시간 데이터를 다루는 **Android 오버레이 앱과 웹 버
 <tr><td width="96" nowrap><b>기술</b></td><td><code>Android</code> <code>JavaScript</code> <code>WebSocket</code> <code>Lightweight Charts</code></td></tr>
 </table>
 
-<a href="https://github.com/wlgptjd333/coin-float"><b>GitHub ↗</b></a> &nbsp;&nbsp; <a href="https://coinfloat.byhyesung.com/"><b>Website ↗</b></a>
+<a href="https://github.com/wlgptjd333/coin-float"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-github-dark.svg"/><img src="assets/btn-github-light.svg" height="36" alt="GitHub"/></picture></a> <a href="https://coinfloat.byhyesung.com/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-website-dark.svg"/><img src="assets/btn-website-light.svg" height="36" alt="Website"/></picture></a>
 
 <div align="right"><a href="#top"><sub><b>↑ 맨 위로</b></sub></a></div>
 
@@ -114,7 +90,7 @@ WebSocket 실시간 데이터를 다루는 **Android 오버레이 앱과 웹 버
 <tr><td width="96" nowrap><b>기술</b></td><td><code>Python</code> <code>OpenCV</code> <code>FastAPI</code></td></tr>
 </table>
 
-<a href="https://github.com/wlgptjd333/handnote-digitizer"><b>GitHub ↗</b></a>
+<a href="https://github.com/wlgptjd333/handnote-digitizer"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-github-dark.svg"/><img src="assets/btn-github-light.svg" height="36" alt="GitHub"/></picture></a>
 
 <div align="right"><a href="#top"><sub><b>↑ 맨 위로</b></sub></a></div>
 
@@ -137,12 +113,7 @@ Vision AI 과정에서 교과별 실습과 과제를 [vision-ai-lab](https://git
 
 ## 🛠 Tech Stack
 
-| 분야 | 기술 |
-| :--- | :--- |
-| 🤖 **AI · Vision** | `PyTorch` `Hugging Face Transformers` `YOLO (Ultralytics)` `MediaPipe` `OpenCV` |
-| ⚙️ **Serving** | `FastAPI` `Celery` `Redis` `PostgreSQL` `SQLAlchemy` `Docker Compose` |
-| 🎮 **Game · App** | `Godot 4` `Android` `JavaScript` `WebSocket` `Three.js` |
-| 🧰 **Tools** | `Git` `GitHub` `WSL2 (Ubuntu)` `uv` `Jekyll` |
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg"/><img src="assets/stack-light.svg" width="100%" alt="AI · Vision / Serving / Game · App / Tools"/></picture>
 
 <div align="right"><a href="#top"><sub><b>↑ 맨 위로</b></sub></a></div>
 
@@ -152,7 +123,7 @@ Vision AI 과정에서 교과별 실습과 과제를 [vision-ai-lab](https://git
 
 <div align="center">
 
-<b><a href="https://byhyesung.com/">byhyesung.com ↗</a> &nbsp;&nbsp; <a href="https://github.com/wlgptjd333?tab=repositories">Repositories ↗</a></b>
+<a href="https://byhyesung.com/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-home-dark.svg"/><img src="assets/btn-home-light.svg" height="36" alt="byhyesung.com"/></picture></a> <a href="https://github.com/wlgptjd333?tab=repositories"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-repos-dark.svg"/><img src="assets/btn-repos-light.svg" height="36" alt="Repositories"/></picture></a>
 
 <br/>
 

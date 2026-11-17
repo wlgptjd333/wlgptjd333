@@ -1,32 +1,52 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 200" width="1200" height="200" role="img" aria-label="어퍼컷 인식 37.3% → 91.0% · Test 정확도 0.72 → 0.98 · 동기 응답 22 ms · 기능 테스트 18 / 18">
-<g font-family="'Pretendard Variable', Pretendard, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif">
-<g transform="translate(0 0)">
-<rect x="0.5" y="0.5" width="284" height="199" rx="16" fill="#ffffff" stroke="#e4e1da"/>
-<text x="24" y="46" font-size="17" font-weight="600" fill="#6b6a66">Body Hero · 어퍼컷 인식</text>
-<text x="24" y="112" font-size="50" font-weight="800" letter-spacing="-1" fill="#1d1d1f">91.0<tspan font-size="26" font-weight="700">%</tspan></text>
-<text x="24" y="146" font-size="18" font-weight="700" fill="#3b6cf6">37.3% → 91.0%</text>
-<text x="24" y="174" font-size="16" fill="#6b6a66">같은 플레이 기록 재생 기준</text>
-</g>
-<g transform="translate(305 0)">
-<rect x="0.5" y="0.5" width="284" height="199" rx="16" fill="#ffffff" stroke="#e4e1da"/>
-<text x="24" y="46" font-size="17" font-weight="600" fill="#6b6a66">콩잎 분류 · Test 정확도</text>
-<text x="24" y="112" font-size="50" font-weight="800" letter-spacing="-1" fill="#1d1d1f">0.98<tspan font-size="26" font-weight="700"></tspan></text>
-<text x="24" y="146" font-size="18" font-weight="700" fill="#3b6cf6">0.72 → 0.98</text>
-<text x="24" y="174" font-size="16" fill="#6b6a66">125 / 128장 · Test 1회 평가</text>
-</g>
-<g transform="translate(610 0)">
-<rect x="0.5" y="0.5" width="284" height="199" rx="16" fill="#ffffff" stroke="#e4e1da"/>
-<text x="24" y="46" font-size="17" font-weight="600" fill="#6b6a66">FastAPI 동기 응답</text>
-<text x="24" y="112" font-size="50" font-weight="800" letter-spacing="-1" fill="#1d1d1f">22<tspan font-size="26" font-weight="700"> ms</tspan></text>
-<text x="24" y="146" font-size="18" font-weight="700" fill="#3b6cf6">캐시 HIT 1.4 ms</text>
-<text x="24" y="174" font-size="16" fill="#6b6a66">ResNet-18 · 로컬 측정</text>
-</g>
-<g transform="translate(915 0)">
-<rect x="0.5" y="0.5" width="284" height="199" rx="16" fill="#ffffff" stroke="#e4e1da"/>
-<text x="24" y="46" font-size="17" font-weight="600" fill="#6b6a66">기능 테스트</text>
-<text x="24" y="112" font-size="50" font-weight="800" letter-spacing="-1" fill="#1d1d1f">18 / 18<tspan font-size="26" font-weight="700"></tspan></text>
-<text x="24" y="146" font-size="18" font-weight="700" fill="#3b6cf6">실환경 PASS</text>
-<text x="24" y="174" font-size="16" fill="#6b6a66">동기 · 비동기 API</text>
-</g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 210" width="880" height="210" role="img" aria-label="어퍼컷 인식 37.3% → 91.0% · Test 정확도 0.72 → 0.98 · 동기 응답 22 ms · 기능 테스트 18 / 18">
+<defs><style>
+.up{animation:up .9s cubic-bezier(.2,.7,.2,1) both}
+.d1{animation-delay:.1s}.d2{animation-delay:.2s}.d3{animation-delay:.3s}.d4{animation-delay:.4s}.d5{animation-delay:.5s}
+@keyframes up{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+.grow{transform-box:fill-box;transform-origin:left center;animation:grow 1.5s cubic-bezier(.2,.7,.2,1) .5s both}
+@keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+.pulse{transform-box:fill-box;transform-origin:center;animation:pulse 2s ease-out infinite}
+@keyframes pulse{from{transform:scale(1);opacity:.7}to{transform:scale(2.6);opacity:0}}
+.drift{animation:drift 12s ease-in-out infinite alternate}
+.drift2{animation:drift2 15s ease-in-out infinite alternate}
+@keyframes drift{to{transform:translate(70px,26px)}}
+@keyframes drift2{to{transform:translate(-80px,-20px)}}
+.pop{animation:pop .4s ease both}
+@keyframes pop{from{opacity:.12}to{opacity:1}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style><linearGradient id="gb" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2997ff"/><stop offset="1" stop-color="#bf5af2"/></linearGradient></defs>
+<g font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Pretendard Variable', Pretendard, 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif">
+<g transform="translate(0 0)"><g class="up d1">
+<rect width="205" height="210" rx="24" fill="#f5f5f7"/>
+<text x="20" y="40" font-size="14" font-weight="600" fill="#6e6e73">어퍼컷 인식</text>
+<text x="19" y="94" font-size="42" font-weight="700" letter-spacing="-1.5" fill="#1d1d1f">91.0<tspan font-size="22" font-weight="600" letter-spacing="0">%</tspan></text>
+<text x="20" y="124" font-size="15" font-weight="600" fill="#0066cc">37.3% → 91.0%</text>
+<rect x="20" y="146" width="165" height="8" rx="4" fill="#e3e3e8"/><rect class="grow" x="20" y="146" width="150" height="8" rx="4" fill="url(#gb)"/><rect x="82" y="143" width="2" height="14" rx="1" fill="#6e6e73"/>
+<text x="20" y="186" font-size="13" fill="#6e6e73">Body Hero · v1.0 → v1.1</text>
+</g></g>
+<g transform="translate(225 0)"><g class="up d2">
+<rect width="205" height="210" rx="24" fill="#f5f5f7"/>
+<text x="20" y="40" font-size="14" font-weight="600" fill="#6e6e73">Test 정확도</text>
+<text x="19" y="94" font-size="42" font-weight="700" letter-spacing="-1.5" fill="#1d1d1f">0.98<tspan font-size="22" font-weight="600" letter-spacing="0"></tspan></text>
+<text x="20" y="124" font-size="15" font-weight="600" fill="#0066cc">0.72 → 0.98</text>
+<rect x="20" y="146" width="165" height="8" rx="4" fill="#e3e3e8"/><rect class="grow" x="20" y="146" width="162" height="8" rx="4" fill="url(#gb)"/><rect x="139" y="143" width="2" height="14" rx="1" fill="#6e6e73"/>
+<text x="20" y="186" font-size="13" fill="#6e6e73">콩잎 분류 · 125 / 128장</text>
+</g></g>
+<g transform="translate(450 0)"><g class="up d3">
+<rect width="205" height="210" rx="24" fill="#f5f5f7"/>
+<text x="20" y="40" font-size="14" font-weight="600" fill="#6e6e73">동기 응답</text>
+<text x="19" y="94" font-size="42" font-weight="700" letter-spacing="-1.5" fill="#1d1d1f">22<tspan font-size="22" font-weight="600" letter-spacing="0"> ms</tspan></text>
+<text x="20" y="124" font-size="15" font-weight="600" fill="#0066cc">캐시 HIT 1.4 ms</text>
+<rect class="grow" x="20" y="142" width="165" height="7" rx="3.5" fill="#e3e3e8"/><rect class="grow" x="20" y="154" width="10" height="7" rx="3.5" fill="url(#gb)"/>
+<text x="20" y="186" font-size="13" fill="#6e6e73">FastAPI · ResNet-18</text>
+</g></g>
+<g transform="translate(675 0)"><g class="up d4">
+<rect width="205" height="210" rx="24" fill="#f5f5f7"/>
+<text x="20" y="40" font-size="14" font-weight="600" fill="#6e6e73">기능 테스트</text>
+<text x="19" y="94" font-size="42" font-weight="700" letter-spacing="-1.5" fill="#1d1d1f">18 / 18<tspan font-size="22" font-weight="600" letter-spacing="0"></tspan></text>
+<text x="20" y="124" font-size="15" font-weight="600" fill="#0066cc">실환경 PASS</text>
+<circle class="pop" style="animation-delay:0.50s" cx="24.0" cy="150" r="3.3" fill="#34c759"/><circle class="pop" style="animation-delay:0.57s" cx="33.2" cy="150" r="3.3" fill="#34c759"/><circle class="pop" style="animation-delay:0.64s" cx="42.4" cy="150" r="3.3" fill="#34c759"/><circle class="pop" style="animation-delay:0.71s" cx="51.6" cy="150" r="3.3" fill="#34c759"/><circle class="pop" style="animation-delay:0.78s" cx="60.8" cy="150" r="3.3" fill="#34c759"/><circle class="pop" style="animation-delay:0.85s" cx="70.0" cy="150" r="3.3" fill="#34c759"/><circle class="pop" style="animation-delay:0.92s" cx="79.2" cy="150" r="3.3" fill="#34c759"/><circle class="pop" style="animation-delay:0.99s" cx="88.4" cy="150" r="3.3" fill="#34c759"/><circle class="pop" style="animation-delay:1.06s" cx="97.6" cy="150" r="3.3" fill="#34c759"/><circle class="pop" style="animation-delay:1.13s" cx="106.8" cy="150" r="3.3" fill="#34c759"/><circle class="pop" style="animation-delay:1.20s" cx="116.0" cy="150" r="3.3" fill="#34c759"/><circle class="pop" style="animation-delay:1.27s" cx="125.2" cy="150" r="3.3" fill="#34c759"/><circle class="pop" style="animation-delay:1.34s" cx="134.4" cy="150" r="3.3" fill="#34c759"/><circle class="pop" style="animation-delay:1.41s" cx="143.6" cy="150" r="3.3" fill="#34c759"/><circle class="pop" style="animation-delay:1.48s" cx="152.8" cy="150" r="3.3" fill="#34c759"/><circle class="pop" style="animation-delay:1.55s" cx="162.0" cy="150" r="3.3" fill="#34c759"/><circle class="pop" style="animation-delay:1.62s" cx="171.2" cy="150" r="3.3" fill="#34c759"/><circle class="pop" style="animation-delay:1.69s" cx="180.4" cy="150" r="3.3" fill="#34c759"/>
+<text x="20" y="186" font-size="13" fill="#6e6e73">동기 · 비동기 API</text>
+</g></g>
 </g>
 </svg>

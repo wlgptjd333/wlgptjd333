@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 200" width="880" height="200" role="img" aria-label="Pose &amp; Motion: 웹캠 영상에서 관절 좌표를 뽑아 동작을 실시간으로 인식하고 게임 입력으로 연결합니다. / Model to Service: Fine-tuning한 모델을 API로 서빙하고, 응답 시간과 테스트 결과를 숫자로 기록합니다. / Real-time Apps: WebSocket 실시간 데이터로 Android 오버레이 앱과 웹을 직접 만들어 배포하고 고칩니다.">
+<defs><style>
+.up{animation:up .9s cubic-bezier(.2,.7,.2,1) both}
+.d1{animation-delay:.1s}.d2{animation-delay:.2s}.d3{animation-delay:.3s}.d4{animation-delay:.4s}.d5{animation-delay:.5s}
+@keyframes up{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+.grow{transform-box:fill-box;transform-origin:left center;animation:grow 1.5s cubic-bezier(.2,.7,.2,1) .5s both}
+@keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+.pulse{transform-box:fill-box;transform-origin:center;animation:pulse 2s ease-out infinite}
+@keyframes pulse{from{transform:scale(1);opacity:.7}to{transform:scale(2.6);opacity:0}}
+.drift{animation:drift 12s ease-in-out infinite alternate}
+.drift2{animation:drift2 15s ease-in-out infinite alternate}
+@keyframes drift{to{transform:translate(70px,26px)}}
+@keyframes drift2{to{transform:translate(-80px,-20px)}}
+.pop{animation:pop .4s ease both}
+@keyframes pop{from{opacity:.12}to{opacity:1}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style></defs>
+<g font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Pretendard Variable', Pretendard, 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif">
+<g transform="translate(0 0)"><g class="up d1">
+<rect width="280" height="200" rx="24" fill="#f5f5f7"/>
+<text x="42" y="58" text-anchor="middle" font-size="30" font-family="'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', sans-serif">🥊</text>
+<text x="24" y="94" font-size="20" font-weight="700" letter-spacing="-.3" fill="#1d1d1f">Pose &amp; Motion</text>
+<text x="24" y="124" font-size="15" fill="#6e6e73">웹캠 영상에서 관절 좌표를 뽑아</text>
+<text x="24" y="147" font-size="15" fill="#6e6e73">동작을 실시간으로 인식하고</text>
+<text x="24" y="170" font-size="15" fill="#6e6e73">게임 입력으로 연결합니다.</text>
+</g></g>
+<g transform="translate(300 0)"><g class="up d2">
+<rect width="280" height="200" rx="24" fill="#f5f5f7"/>
+<text x="42" y="58" text-anchor="middle" font-size="30" font-family="'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', sans-serif">⚙️</text>
+<text x="24" y="94" font-size="20" font-weight="700" letter-spacing="-.3" fill="#1d1d1f">Model to Service</text>
+<text x="24" y="124" font-size="15" fill="#6e6e73">Fine-tuning한 모델을 API로</text>
+<text x="24" y="147" font-size="15" fill="#6e6e73">서빙하고, 응답 시간과 테스트</text>
+<text x="24" y="170" font-size="15" fill="#6e6e73">결과를 숫자로 기록합니다.</text>
+</g></g>
+<g transform="translate(600 0)"><g class="up d3">
+<rect width="280" height="200" rx="24" fill="#f5f5f7"/>
+<text x="42" y="58" text-anchor="middle" font-size="30" font-family="'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', sans-serif">📱</text>
+<text x="24" y="94" font-size="20" font-weight="700" letter-spacing="-.3" fill="#1d1d1f">Real-time Apps</text>
+<text x="24" y="124" font-size="15" fill="#6e6e73">WebSocket 실시간 데이터로</text>
+<text x="24" y="147" font-size="15" fill="#6e6e73">Android 오버레이 앱과 웹을</text>
+<text x="24" y="170" font-size="15" fill="#6e6e73">직접 만들어 배포하고 고칩니다.</text>
+</g></g>
+</g>
+</svg>
