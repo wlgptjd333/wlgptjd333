@@ -263,18 +263,34 @@ def button(t, label, ico, kind):
 
 
 def main():
-    OUT.mkdir(exist_ok=True)
-    for old in OUT.glob("*.svg"):
-        old.unlink()
+    import hashlib
+    import re
+    import shutil
+
+    files = {}
     for name, t in THEMES.items():
-        files = {"header": header(t), "about": about(t), "highlights": highlights(t), "stack": stack(t)}
+        files[f"header-{name}.svg"] = header(t)
+        files[f"about-{name}.svg"] = about(t)
+        files[f"highlights-{name}.svg"] = highlights(t)
+        files[f"stack-{name}.svg"] = stack(t)
         for slug, *rest in PROJECTS:
-            files[f"project-{slug}"] = project(t, *rest)
+            files[f"project-{slug}-{name}.svg"] = project(t, *rest)
         for slug, *rest in BUTTONS:
-            files[f"btn-{slug}"] = button(t, *rest)
-        for key, content in files.items():
-            (OUT / f"{key}-{name}.svg").write_text(content, encoding="utf-8")
-    print(len(list(OUT.glob("*.svg"))), "files in", OUT)
+            files[f"btn-{slug}-{name}.svg"] = button(t, *rest)
+
+    # 브라우저가 예전 이미지를 계속 보여 주지 않도록, 내용이 바뀌면 폴더 이름(해시)도 바뀌게 한다.
+    version = hashlib.sha256("".join(files[k] for k in sorted(files)).encode()).hexdigest()[:8]
+    if OUT.exists():
+        shutil.rmtree(OUT)
+    (OUT / version).mkdir(parents=True)
+    for fname, content in files.items():
+        (OUT / version / fname).write_text(content, encoding="utf-8")
+
+    readme = OUT.parent / "README.md"
+    text = readme.read_text(encoding="utf-8")
+    text = re.sub(r"assets/(?:[0-9a-f]{8}/)?([a-z-]+\.svg)", rf"assets/{version}/\1", text)
+    readme.write_text(text, encoding="utf-8")
+    print(len(files), "files in", OUT / version)
 
 
 if __name__ == "__main__":
