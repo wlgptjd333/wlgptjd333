@@ -80,10 +80,51 @@ def chips(items, x, y, t, max_x, size=13, h=28, pad=12, gap=7, row_gap=6):
 
 
 # ---------- 머리 배너 ----------
+def pose_card(t, x, y):
+    """움직이는 자세 인식 카드: 가드 자세에서 오른손 펀치를 반복한다 (2.6초 주기)."""
+    kt = 'keyTimes="0;0.42;0.5;0.74;0.84;1" dur="2.6s" repeatCount="indefinite"'
+
+    def anim(attr, a, b):
+        return f'<animate attributeName="{attr}" values="{a};{a};{b};{b};{a};{a}" {kt}/>'
+
+    line = f'fill="none" stroke="{t["accent"]}" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"'
+    dot = f'fill="{t["text"]}"'
+    return f'''<g transform="translate({x} {y})"><g class="up d3">
+<rect width="272" height="250" rx="22" fill="{t["tile"]}" filter="url(#sh)"/>
+<circle class="pulse" cx="24" cy="22" r="4" fill="#ff375f"/><circle cx="24" cy="22" r="4" fill="#ff375f"/>
+<text x="36" y="26.5" font-size="12" font-weight="700" letter-spacing=".5" fill="{t["text"]}">LIVE</text>
+<text x="256" y="26.5" text-anchor="end" font-size="12" fill="{t["muted"]}">webcam · 30 FPS</text>
+<g transform="translate(16 40)">
+<rect width="240" height="150" rx="14" fill="{t["card"]}"/>
+<path d="M10 24V16a6 6 0 0 1 6-6h8M216 10h8a6 6 0 0 1 6 6v8M230 126v8a6 6 0 0 1-6 6h-8M24 140h-8a6 6 0 0 1-6-6v-8" fill="none" stroke="{t["muted"]}" stroke-width="1.6" stroke-linecap="round" opacity=".55"/>
+<rect x="76" y="16" width="90" height="126" rx="6" fill="none" stroke="#ff9f0a" stroke-width="1.6" stroke-dasharray="5 4">{anim("width", 90, 132)}</rect>
+<rect x="76" y="2" width="86" height="16" rx="4" fill="#ff9f0a"/>
+<text x="82" y="14" font-size="11" font-weight="700" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" fill="#1d1d1f">guard 0.94{anim("opacity", 1, 0)}</text>
+<text x="82" y="14" font-size="11" font-weight="700" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" fill="#1d1d1f" opacity="0">punch_r 0.97{anim("opacity", 0, 1)}</text>
+<g {line}>
+<path d="M100 60H140M120 54V106M108 106H132M108 106L104 138M132 106L136 138M100 60L92 82L104 62"/>
+<polyline points="140,60 148,82 136,62">{anim("points", "140,60 148,82 136,62", "140,60 168,60 198,56")}</polyline>
+</g>
+<circle cx="120" cy="38" r="11" fill="none" stroke="{t["accent"]}" stroke-width="3.2"/>
+<g {dot}>
+<circle cx="100" cy="60" r="3.6"/><circle cx="140" cy="60" r="3.6"/><circle cx="92" cy="82" r="3.6"/><circle cx="104" cy="62" r="4.4"/>
+<circle cx="108" cy="106" r="3.6"/><circle cx="132" cy="106" r="3.6"/>
+<circle cx="148" cy="82" r="3.6">{anim("cx", 148, 168)}{anim("cy", 82, 60)}</circle>
+</g>
+<circle cx="136" cy="62" r="5.2" fill="#ff375f">{anim("cx", 136, 198)}{anim("cy", 62, 56)}</circle>
+</g>
+<text x="18" y="216" font-size="12.5" font-weight="700" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" fill="{t["text"]}">punch_r</text>
+<rect x="82" y="207" width="172" height="8" rx="4" fill="{t["track"]}"/>
+<rect x="82" y="207" width="12" height="8" rx="4" fill="url(#gt)">{anim("width", 12, 167)}</rect>
+<text x="18" y="236" font-size="11.5" fill="{t["muted"]}">MediaPipe Pose → 1D-CNN → Godot</text>
+</g></g>'''
+
+
 def header(t):
-    h = 330
+    h = 336
     defs = f'''<clipPath id="c"><rect width="{W}" height="{h}" rx="32"/></clipPath>
 <filter id="b" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="55"/></filter>
+<filter id="sh" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000" flood-opacity=".12"/></filter>
 <linearGradient id="gt" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="440" y2="0" spreadMethod="reflect">
 <stop offset="0" stop-color="#2997ff"/><stop offset=".5" stop-color="#bf5af2"/><stop offset="1" stop-color="#ff375f"/>
 <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="880 0" dur="9s" repeatCount="indefinite"/>
@@ -91,19 +132,26 @@ def header(t):
     body = f'''<g clip-path="url(#c)">
 <rect width="{W}" height="{h}" fill="{t["card"]}"/>
 <g filter="url(#b)" opacity="{t["blob"]}">
-<circle class="drift" cx="90" cy="300" r="120" fill="#2997ff"/>
-<circle class="drift2" cx="800" cy="40" r="120" fill="#bf5af2"/>
-<circle class="drift" cx="700" cy="330" r="90" fill="#ff375f"/>
+<circle class="drift" cx="60" cy="330" r="120" fill="#2997ff"/>
+<circle class="drift2" cx="820" cy="30" r="120" fill="#bf5af2"/>
+<circle class="drift" cx="560" cy="350" r="90" fill="#ff375f"/>
 </g>
 </g>
 <g class="up">
-<rect x="{W / 2 - 22}" y="40" width="44" height="44" rx="12" fill="{t["text"]}"/>
-<text x="{W / 2}" y="70" text-anchor="middle" font-size="23" font-weight="800" fill="{t["card"]}">H</text>
+<rect x="48" y="40" width="44" height="44" rx="12" fill="{t["text"]}"/>
+<text x="70" y="70" text-anchor="middle" font-size="23" font-weight="800" fill="{t["card"]}">H</text>
 </g>
-<text class="up d1" x="{W / 2}" y="122" text-anchor="middle" font-size="16" font-weight="600" fill="{t["muted"]}">AI Vision · Apps · Games</text>
-<text class="up d2" x="{W / 2}" y="200" text-anchor="middle" font-size="78" font-weight="700" letter-spacing="-2.5" fill="{t["text"]}">Hyesung.</text>
-<text class="up d3" x="{W / 2}" y="246" text-anchor="middle" font-size="23" font-weight="600" letter-spacing="-.3" fill="url(#gt)">Building AI vision tools and apps, and writing down what I learn.</text>
-<text class="up d4" x="{W / 2}" y="284" text-anchor="middle" font-size="14.5" fill="{t["muted"]}">머신비전 · 딥러닝 · AI 서비스 개발을 공부하며, 직접 쓰고 싶은 앱과 게임을 만듭니다.</text>'''
+<text class="up d1" x="48" y="124" font-size="15.5" font-weight="600" fill="{t["muted"]}">AI Vision · Apps · Games</text>
+<text class="up d2" x="44" y="194" font-size="74" font-weight="700" letter-spacing="-2.5" fill="{t["text"]}">Hyesung.</text>
+<g class="up d3" font-size="21.5" font-weight="600" letter-spacing="-.3" fill="url(#gt)">
+<text x="48" y="234">Building AI vision tools and apps,</text>
+<text x="48" y="262">and writing down what I learn.</text>
+</g>
+<g class="up d4" font-size="14" fill="{t["muted"]}">
+<text x="48" y="294">머신비전 · 딥러닝 · AI 서비스 개발을 공부하며,</text>
+<text x="48" y="315">직접 쓰고 싶은 앱과 게임을 만듭니다.</text>
+</g>
+{pose_card(t, 564, 43)}'''
     return svg(W, h, "Hyesung — Building AI vision tools and apps, and writing down what I learn.", body, defs)
 
 
