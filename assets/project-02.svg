@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 150" width="1200" height="150" role="img" aria-label="02 콩잎 질병 분류 Vision AI 서비스: ResNet-18 Fine-tuning을 동기 · 비동기 API로 서빙">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#16233A"/>
+      <stop offset="1" stop-color="#24426B"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="150" rx="14" fill="url(#g)"/>
+  <rect x="0" y="0" width="8" height="150" rx="4" fill="#F2A541"/>
+  <g font-family="'Segoe UI', 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', sans-serif">
+    <text x="44" y="96" font-size="54" font-weight="800" fill="#F2A541" opacity="0.95">02</text>
+    <text x="136" y="58" font-size="30" font-weight="800" fill="#FFFFFF">콩잎 질병 분류 Vision AI 서비스</text>
+    <text x="136" y="92" font-size="18" font-weight="500" fill="#DCE8F5">ResNet-18 Fine-tuning을 동기 · 비동기 API로 서빙</text>
+    <text x="136" y="120" font-size="14" fill="#9FB3CC">FastAPI · Celery · Redis · PostgreSQL · Docker Compose</text>
+    <rect x="960" y="27" width="200" height="96" rx="12" fill="#FFFFFF" opacity="0.08"/>
+    <text x="1060" y="78" text-anchor="middle" font-size="38" font-weight="800" fill="#FFFFFF">0.98</text>
+    <text x="1060" y="106" text-anchor="middle" font-size="13" fill="#7FB2E5">Test 정확도</text>
+  </g>
+</svg>
