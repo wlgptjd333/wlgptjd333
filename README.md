@@ -3,11 +3,11 @@
 
 <div align="center">
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/282cf919/header-dark.svg"/><img src="assets/282cf919/header-light.svg" width="100%" alt="Hyesung · Vision AI · Apps · Games — Vision AI를 직접 써 볼 수 있는 게임 · 앱 · API로 만듭니다."/></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/638614c1/header-dark.svg"/><img src="assets/638614c1/header-light.svg" width="100%" alt="Hyesung · Vision AI · Apps · Games — Vision AI를 직접 써 볼 수 있는 게임 · 앱 · API로 만듭니다."/></picture>
 
 <br/>
 
-<a href="#-about"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/282cf919/btn-nav-about-dark.svg"/><img src="assets/282cf919/btn-nav-about-light.svg" height="32" alt="About"/></picture></a> <a href="#-highlights"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/282cf919/btn-nav-highlights-dark.svg"/><img src="assets/282cf919/btn-nav-highlights-light.svg" height="32" alt="Highlights"/></picture></a> <a href="#-projects"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/282cf919/btn-nav-projects-dark.svg"/><img src="assets/282cf919/btn-nav-projects-light.svg" height="32" alt="Projects"/></picture></a> <a href="#-tech-stack"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/282cf919/btn-nav-stack-dark.svg"/><img src="assets/282cf919/btn-nav-stack-light.svg" height="32" alt="Tech Stack"/></picture></a> <a href="#-links"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/282cf919/btn-nav-links-dark.svg"/><img src="assets/282cf919/btn-nav-links-light.svg" height="32" alt="Links"/></picture></a>
+<a href="#-about"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/638614c1/btn-nav-about-dark.svg"/><img src="assets/638614c1/btn-nav-about-light.svg" height="32" alt="About"/></picture></a> <a href="#-highlights"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/638614c1/btn-nav-highlights-dark.svg"/><img src="assets/638614c1/btn-nav-highlights-light.svg" height="32" alt="Highlights"/></picture></a> <a href="#-projects"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/638614c1/btn-nav-projects-dark.svg"/><img src="assets/638614c1/btn-nav-projects-light.svg" height="32" alt="Projects"/></picture></a> <a href="#-tech-stack"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/638614c1/btn-nav-stack-dark.svg"/><img src="assets/638614c1/btn-nav-stack-light.svg" height="32" alt="Tech Stack"/></picture></a> <a href="#-links"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/638614c1/btn-nav-links-dark.svg"/><img src="assets/638614c1/btn-nav-links-light.svg" height="32" alt="Links"/></picture></a>
 
 </div>
 
@@ -17,15 +17,15 @@
 
 > **모델을 학습시키는 데서 끝내지 않고, 누군가 실제로 실행해 볼 수 있는 형태까지 만듭니다.**
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/282cf919/about-dark.svg"/><img src="assets/282cf919/about-light.svg" width="100%" alt="Pose & Motion · Model to Service · Real-time Apps"/></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/638614c1/about-dark.svg"/><img src="assets/638614c1/about-light.svg" width="100%" alt="Pose & Motion · Model to Service · Real-time Apps"/></picture>
 
 <br/>
 
 ## ✨ Highlights
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/282cf919/highlights-dark.svg"/><img src="assets/282cf919/highlights-light.svg" width="100%" alt="어퍼컷 인식 37.3% → 91.0% · 콩잎 질병 분류 Test 정확도 0.72 → 0.98 · 동기 API 응답 22 ms · 기능 테스트 18 / 18"/></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/638614c1/highlights-dark.svg"/><img src="assets/638614c1/highlights-light.svg" width="100%" alt="Body Hero: 어퍼컷 인식률 37.3% → 91.0%, 잘못 나간 공격 24.8% → 4.0% / 콩잎 질병 분류: Test 정확도 71.9% → 97.7%, 녹병 재현율 64.4% → 95.6%"/></picture>
 
-<sub>※ 각 수치는 아래 프로젝트 저장소의 README에 기록된 결과입니다.</sub>
+<sub>※ 개선 전 → 후. 막대의 세로선이 개선 전 위치이며, 각 수치는 아래 프로젝트 저장소의 README에 기록된 결과입니다.</sub>
 
 <div align="right"><a href="#top"><sub><b>↑ 맨 위로</b></sub></a></div>
 
@@ -35,7 +35,7 @@
 
 <sub>카드를 누르면 저장소로 이동합니다.</sub>
 
-<a href="https://github.com/wlgptjd333/body-hero"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/282cf919/project-body-hero-dark.svg"/><img src="assets/282cf919/project-body-hero-light.svg" width="100%" alt="01 Body Hero: 웹캠 하나로 즐기는 2D 복싱 체감형 게임"/></picture></a>
+<a href="https://github.com/wlgptjd333/body-hero"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/638614c1/project-body-hero-dark.svg"/><img src="assets/638614c1/project-body-hero-light.svg" width="100%" alt="01 Body Hero: 웹캠 하나로 즐기는 2D 복싱 체감형 게임"/></picture></a>
 
 <table>
 <tr><td width="96" nowrap><b>문제</b></td><td>체감형 게임은 전용 컨트롤러나 VR 장비가 필요합니다. <b>일반 웹캠 하나</b>로 펀치 · 어퍼컷 · 가드 · 스쿼트를 인식하고 싶었습니다.</td></tr>
@@ -44,13 +44,13 @@
 <tr><td width="96" nowrap><b>기술</b></td><td><code>Python</code> <code>MediaPipe</code> <code>1D-CNN</code> <code>Godot 4.6</code> <code>UDP</code></td></tr>
 </table>
 
-<a href="https://github.com/wlgptjd333/body-hero"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/282cf919/btn-github-dark.svg"/><img src="assets/282cf919/btn-github-light.svg" height="36" alt="GitHub"/></picture></a> <a href="https://github.com/wlgptjd333/body-hero/releases/latest"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/282cf919/btn-download-dark.svg"/><img src="assets/282cf919/btn-download-light.svg" height="36" alt="Download"/></picture></a>
+<a href="https://github.com/wlgptjd333/body-hero"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/638614c1/btn-github-dark.svg"/><img src="assets/638614c1/btn-github-light.svg" height="36" alt="GitHub"/></picture></a> <a href="https://github.com/wlgptjd333/body-hero/releases/latest"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/638614c1/btn-download-dark.svg"/><img src="assets/638614c1/btn-download-light.svg" height="36" alt="Download"/></picture></a>
 
 <div align="right"><a href="#top"><sub><b>↑ 맨 위로</b></sub></a></div>
 
 <br/>
 
-<a href="https://github.com/wlgptjd333/bean-leaf-disease-api"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/282cf919/project-beans-dark.svg"/><img src="assets/282cf919/project-beans-light.svg" width="100%" alt="02 콩잎 질병 분류 Vision AI 서비스: ResNet-18 Fine-tuning을 동기 · 비동기 API로 서빙"/></picture></a>
+<a href="https://github.com/wlgptjd333/bean-leaf-disease-api"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/638614c1/project-beans-dark.svg"/><img src="assets/638614c1/project-beans-light.svg" width="100%" alt="02 콩잎 질병 분류 Vision AI 서비스: ResNet-18 Fine-tuning을 동기 · 비동기 API로 서빙"/></picture></a>
 
 <table>
 <tr><td width="96" nowrap><b>문제</b></td><td>헤드만 학습한 기준선은 Test 정확도가 0.72에 그쳤고, 모델을 실제 요청으로 받을 <b>서비스 구조</b>도 필요했습니다.</td></tr>
@@ -60,13 +60,13 @@
 <tr><td width="96" nowrap><b>기술</b></td><td><code>PyTorch</code> <code>Transformers</code> <code>FastAPI</code> <code>Celery</code> <code>Redis</code> <code>PostgreSQL</code> <code>Docker</code></td></tr>
 </table>
 
-<a href="https://github.com/wlgptjd333/bean-leaf-disease-api"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/282cf919/btn-github-dark.svg"/><img src="assets/282cf919/btn-github-light.svg" height="36" alt="GitHub"/></picture></a>
+<a href="https://github.com/wlgptjd333/bean-leaf-disease-api"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/638614c1/btn-github-dark.svg"/><img src="assets/638614c1/btn-github-light.svg" height="36" alt="GitHub"/></picture></a>
 
 <div align="right"><a href="#top"><sub><b>↑ 맨 위로</b></sub></a></div>
 
 <br/>
 
-<a href="https://github.com/wlgptjd333/coin-float"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/282cf919/project-coinfloat-dark.svg"/><img src="assets/282cf919/project-coinfloat-light.svg" width="100%" alt="03 CoinFloat: 다른 앱 위에 뜨는 초소형 실시간 시세 오버레이"/></picture></a>
+<a href="https://github.com/wlgptjd333/coin-float"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/638614c1/project-coinfloat-dark.svg"/><img src="assets/638614c1/project-coinfloat-light.svg" width="100%" alt="03 CoinFloat: 다른 앱 위에 뜨는 초소형 실시간 시세 오버레이"/></picture></a>
 
 <table>
 <tr><td width="96" nowrap><b>문제</b></td><td>다른 앱을 쓰는 동안에도 시세를 보고 싶은데, 기존 앱은 화면을 크게 가리거나 앱을 전환해야 했습니다.</td></tr>
@@ -75,13 +75,13 @@
 <tr><td width="96" nowrap><b>기술</b></td><td><code>Android</code> <code>JavaScript</code> <code>WebSocket</code> <code>Lightweight Charts</code></td></tr>
 </table>
 
-<a href="https://github.com/wlgptjd333/coin-float"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/282cf919/btn-github-dark.svg"/><img src="assets/282cf919/btn-github-light.svg" height="36" alt="GitHub"/></picture></a> <a href="https://coinfloat.byhyesung.com/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/282cf919/btn-website-dark.svg"/><img src="assets/282cf919/btn-website-light.svg" height="36" alt="Website"/></picture></a>
+<a href="https://github.com/wlgptjd333/coin-float"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/638614c1/btn-github-dark.svg"/><img src="assets/638614c1/btn-github-light.svg" height="36" alt="GitHub"/></picture></a> <a href="https://coinfloat.byhyesung.com/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/638614c1/btn-website-dark.svg"/><img src="assets/638614c1/btn-website-light.svg" height="36" alt="Website"/></picture></a>
 
 <div align="right"><a href="#top"><sub><b>↑ 맨 위로</b></sub></a></div>
 
 <br/>
 
-<a href="https://github.com/wlgptjd333/handnote-digitizer"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/282cf919/project-inklog-dark.svg"/><img src="assets/282cf919/project-inklog-light.svg" width="100%" alt="04 InkLog (진행 중): 종이 점검일지를 사진 한 장으로 칸별 데이터로"/></picture></a>
+<a href="https://github.com/wlgptjd333/handnote-digitizer"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/638614c1/project-inklog-dark.svg"/><img src="assets/638614c1/project-inklog-light.svg" width="100%" alt="04 InkLog (진행 중): 종이 점검일지를 사진 한 장으로 칸별 데이터로"/></picture></a>
 
 <table>
 <tr><td width="96" nowrap><b>문제</b></td><td>기존 OCR은 페이지를 글자 덩어리로 돌려줄 뿐, <b>어느 숫자가 온도인지 · 체크됐는지 · 기준을 넘었는지</b>는 모릅니다.</td></tr>
@@ -90,7 +90,7 @@
 <tr><td width="96" nowrap><b>기술</b></td><td><code>Python</code> <code>OpenCV</code> <code>FastAPI</code></td></tr>
 </table>
 
-<a href="https://github.com/wlgptjd333/handnote-digitizer"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/282cf919/btn-github-dark.svg"/><img src="assets/282cf919/btn-github-light.svg" height="36" alt="GitHub"/></picture></a>
+<a href="https://github.com/wlgptjd333/handnote-digitizer"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/638614c1/btn-github-dark.svg"/><img src="assets/638614c1/btn-github-light.svg" height="36" alt="GitHub"/></picture></a>
 
 <div align="right"><a href="#top"><sub><b>↑ 맨 위로</b></sub></a></div>
 
@@ -113,7 +113,7 @@ Vision AI 실습과 과제를 [vision-ai-lab](https://github.com/wlgptjd333/visi
 
 ## 🛠 Tech Stack
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/282cf919/stack-dark.svg"/><img src="assets/282cf919/stack-light.svg" width="100%" alt="AI · Vision / Serving / Game · App / Tools"/></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/638614c1/stack-dark.svg"/><img src="assets/638614c1/stack-light.svg" width="100%" alt="AI · Vision / Serving / Game · App / Tools"/></picture>
 
 <div align="right"><a href="#top"><sub><b>↑ 맨 위로</b></sub></a></div>
 
@@ -123,7 +123,7 @@ Vision AI 실습과 과제를 [vision-ai-lab](https://github.com/wlgptjd333/visi
 
 <div align="center">
 
-<a href="https://byhyesung.com/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/282cf919/btn-home-dark.svg"/><img src="assets/282cf919/btn-home-light.svg" height="36" alt="byhyesung.com"/></picture></a> <a href="https://github.com/wlgptjd333?tab=repositories"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/282cf919/btn-repos-dark.svg"/><img src="assets/282cf919/btn-repos-light.svg" height="36" alt="Repositories"/></picture></a>
+<a href="https://byhyesung.com/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/638614c1/btn-home-dark.svg"/><img src="assets/638614c1/btn-home-light.svg" height="36" alt="byhyesung.com"/></picture></a> <a href="https://github.com/wlgptjd333?tab=repositories"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/638614c1/btn-repos-dark.svg"/><img src="assets/638614c1/btn-repos-light.svg" height="36" alt="Repositories"/></picture></a>
 
 <br/>
 

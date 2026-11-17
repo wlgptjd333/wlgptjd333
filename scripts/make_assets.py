@@ -97,21 +97,22 @@ def pose_card(t, x, y):
 <g transform="translate(16 40)">
 <rect width="240" height="150" rx="14" fill="{t["card"]}"/>
 <path d="M10 24V16a6 6 0 0 1 6-6h8M216 10h8a6 6 0 0 1 6 6v8M230 126v8a6 6 0 0 1-6 6h-8M24 140h-8a6 6 0 0 1-6-6v-8" fill="none" stroke="{t["muted"]}" stroke-width="1.6" stroke-linecap="round" opacity=".55"/>
-<rect x="76" y="16" width="90" height="126" rx="6" fill="none" stroke="#ff9f0a" stroke-width="1.6" stroke-dasharray="5 4">{anim("width", 90, 132)}</rect>
+<rect x="76" y="16" width="90" height="126" rx="6" fill="none" stroke="#ff9f0a" stroke-width="1.6" stroke-dasharray="5 4"/>
 <rect x="76" y="2" width="98" height="16" rx="4" fill="#ff9f0a"/>
 <text x="82" y="14" font-size="11" font-weight="700" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" fill="#1d1d1f">guard 0.94{anim("opacity", 1, 0)}</text>
 <text x="82" y="14" font-size="11" font-weight="700" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" fill="#1d1d1f" opacity="0">punch_r 0.97{anim("opacity", 0, 1)}</text>
 <g {line}>
 <path d="M100 60H140M120 54V106M108 106H132M108 106L104 138M132 106L136 138M100 60L90 80L108 48"/>
-<polyline points="140,60 150,80 132,48">{anim("points", "140,60 150,80 132,48", "140,60 168,60 198,56")}</polyline>
+<polyline points="140,60 150,80 132,48">{anim("points", "140,60 150,80 132,48", "140,60 147,72 135,64")}</polyline>
 </g>
 <circle cx="120" cy="38" r="11" fill="none" stroke="{t["accent"]}" stroke-width="3.2"/>
 <g {dot}>
 <circle cx="100" cy="60" r="3.6"/><circle cx="140" cy="60" r="3.6"/><circle cx="90" cy="80" r="3.6"/><circle cx="108" cy="48" r="4.4"/>
 <circle cx="108" cy="106" r="3.6"/><circle cx="132" cy="106" r="3.6"/>
-<circle cx="150" cy="80" r="3.6">{anim("cx", 150, 168)}{anim("cy", 80, 60)}</circle>
+<circle cx="150" cy="80" r="3.6">{anim("cx", 150, 147)}{anim("cy", 80, 72)}</circle>
 </g>
-<circle cx="132" cy="48" r="5.2" fill="#ff375f">{anim("cx", 132, 198)}{anim("cy", 48, 56)}</circle>
+<circle cx="135" cy="64" r="19" fill="none" stroke="#ff375f" stroke-width="1.6" opacity="0">{anim("opacity", 0, 0.5)}</circle>
+<circle cx="132" cy="48" r="5.2" fill="#ff375f">{anim("cx", 132, 135)}{anim("cy", 48, 64)}{anim("r", 5.2, 12.5)}</circle>
 </g>
 <text x="18" y="216" font-size="12.5" font-weight="700" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" fill="{t["text"]}">punch_r</text>
 <rect x="82" y="207" width="172" height="8" rx="4" fill="{t["track"]}"/>
@@ -177,39 +178,40 @@ def about(t):
     return svg(W, 200, " / ".join(f"{a[1]}: {' '.join(a[2])}" for a in ABOUT), "\n".join(parts))
 
 
-# ---------- 숫자 카드 4개 ----------
+# ---------- 하이라이트: 프로젝트별 개선 전 → 후 ----------
+HIGHLIGHTS = [  # 이모지, 프로젝트, 비교 조건, [(지표, 전, 후, 부연)]
+    ("🥊", "Body Hero", "v1.0 → v1.1",
+     [("어퍼컷 인식률", 37.3, 91.0, "같은 플레이 기록 재생"), ("잘못 나간 공격", 24.8, 4.0, "낮을수록 좋음")]),
+    ("🌱", "콩잎 질병 분류", "헤드만 학습 → 전체 Fine-tuning",
+     [("Test 정확도", 71.9, 97.7, "125 / 128장"), ("녹병 재현율", 64.4, 95.6, "Validation 43 / 45장")]),
+]
+
+
 def highlights(t):
-    cw, inner = 205, 165
     grad = ('<linearGradient id="gb" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2997ff"/>'
             '<stop offset="1" stop-color="#bf5af2"/></linearGradient>')
-
-    def bar(to, mark):
-        return (f'<rect x="20" y="146" width="{inner}" height="8" rx="4" fill="{t["track"]}"/>'
-                f'<rect class="grow" x="20" y="146" width="{inner * to:.0f}" height="8" rx="4" fill="url(#gb)"/>'
-                f'<rect x="{20 + inner * mark:.0f}" y="143" width="2" height="14" rx="1" fill="{t["muted"]}"/>')
-
-    two = (f'<rect class="grow" x="20" y="142" width="{inner}" height="7" rx="3.5" fill="{t["track"]}"/>'
-           f'<rect class="grow" x="20" y="154" width="{inner * 1.4 / 22:.0f}" height="7" rx="3.5" fill="url(#gb)"/>')
-    dots = "".join(f'<circle class="pop" style="animation-delay:{0.5 + k * 0.07:.2f}s" cx="{24 + k * 9.2:.1f}" cy="150" r="3.3" fill="{t["green"]}"/>'
-                   for k in range(18))
-    cards = [
-        ("어퍼컷 인식", "91.0", "%", "37.3% → 91.0%", bar(0.91, 0.373), "Body Hero · v1.0 → v1.1"),
-        ("Test 정확도", "0.98", "", "0.72 → 0.98", bar(0.98, 0.72), "콩잎 분류 · 125 / 128장"),
-        ("동기 응답", "22", " ms", "캐시 HIT 1.4 ms", two, "FastAPI · ResNet-18"),
-        ("기능 테스트", "18 / 18", "", "실환경 PASS", dots, "동기 · 비동기 API"),
-    ]
+    bw = 176
     parts = []
-    for i, (label, num, unit, delta, viz, note) in enumerate(cards):
-        parts.append(f'''<g transform="translate({i * 225} 0)"><g class="up d{i + 1}">
-<rect width="{cw}" height="210" rx="24" fill="{t["card"]}"/>
-<text x="20" y="40" font-size="14" font-weight="600" fill="{t["muted"]}">{escape(label)}</text>
-<text x="19" y="94" font-size="42" font-weight="700" letter-spacing="-1.5" fill="{t["text"]}">{escape(num)}<tspan font-size="22" font-weight="600" letter-spacing="0">{escape(unit)}</tspan></text>
-<text x="20" y="124" font-size="15" font-weight="600" fill="{t["accent"]}">{escape(delta)}</text>
-{viz}
-<text x="20" y="186" font-size="13" fill="{t["muted"]}">{escape(note)}</text>
+    for i, (em, name, cond, metrics) in enumerate(HIGHLIGHTS):
+        cols = []
+        for k, (label, before, after, note) in enumerate(metrics):
+            x = 24 + k * 200
+            cols.append(f'''<text x="{x}" y="86" font-size="13.5" font-weight="600" fill="{t["muted"]}">{escape(label)}</text>
+<text x="{x - 1}" y="134" font-size="40" font-weight="700" letter-spacing="-1.5" fill="{t["text"]}">{after:.1f}<tspan font-size="20" font-weight="600" letter-spacing="0">%</tspan></text>
+<text x="{x}" y="160" font-size="14" font-weight="600" fill="{t["accent"]}">{before:.1f}% → {after:.1f}%</text>
+<rect x="{x}" y="174" width="{bw}" height="7" rx="3.5" fill="{t["track"]}"/>
+<rect class="grow" x="{x}" y="174" width="{bw * after / 100:.0f}" height="7" rx="3.5" fill="url(#gb)"/>
+<rect x="{x + bw * before / 100:.0f}" y="171" width="2" height="13" rx="1" fill="{t["muted"]}"/>
+<text x="{x}" y="204" font-size="12.5" fill="{t["muted"]}">{escape(note)}</text>''')
+        parts.append(f'''<g transform="translate({i * 450} 0)"><g class="up d{i + 1}">
+<rect width="430" height="226" rx="24" fill="{t["card"]}"/>
+{emoji(36, 46, 20, em)}
+<text x="56" y="45" font-size="17" font-weight="700" letter-spacing="-.2" fill="{t["text"]}">{escape(name)}</text>
+<text x="406" y="44" text-anchor="end" font-size="12.5" fill="{t["muted"]}">{escape(cond)}</text>
+{chr(10).join(cols)}
 </g></g>''')
-    return svg(W, 210, "어퍼컷 인식 37.3% → 91.0% · Test 정확도 0.72 → 0.98 · 동기 응답 22 ms · 기능 테스트 18 / 18",
-               "\n".join(parts), grad)
+    label = " / ".join(f"{h[1]}: " + ", ".join(f"{m[0]} {m[1]}% → {m[2]}%" for m in h[3]) for h in HIGHLIGHTS)
+    return svg(W, 226, label, "\n".join(parts), grad)
 
 
 # ---------- 프로젝트 카드 ----------
