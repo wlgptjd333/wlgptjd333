@@ -250,10 +250,21 @@ BUTTONS = [  # 파일 이름, 글자, 아이콘, 종류
     ("website", "Website", "globe", "blue"),
     ("home", "byhyesung.com", "globe", "blue"),
     ("repos", "Repositories", "github", "ink"),
+    # 맨 위 메뉴 (아이콘 없는 연회색 알약)
+    ("nav-about", "About", None, "ghost"),
+    ("nav-highlights", "Highlights", None, "ghost"),
+    ("nav-projects", "Projects", None, "ghost"),
+    ("nav-stack", "Tech Stack", None, "ghost"),
+    ("nav-links", "Links", None, "ghost"),
 ]
 
 
 def button(t, label, ico, kind):
+    if kind == "ghost":
+        w = round(text_width(label, 15, True) + 36)
+        body = (f'<rect width="{w}" height="36" rx="18" fill="{t["card"]}"/>'
+                f'<text x="{w / 2}" y="23.5" text-anchor="middle" font-size="15" font-weight="600" fill="{t["text"]}">{escape(label)}</text>')
+        return svg(w, 36, label, body)
     fill, fg = (t["text"], t["card"]) if kind == "ink" else (t["blue"], "#ffffff")
     w = round(18 + 20 + 9 + text_width(label, 16, True) + 20)
     body = f'''<rect width="{w}" height="40" rx="20" fill="{fill}"/>
