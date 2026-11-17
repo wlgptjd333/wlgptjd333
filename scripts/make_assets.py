@@ -138,19 +138,15 @@ def header(t):
 <circle class="drift" cx="560" cy="350" r="90" fill="#ff375f"/>
 </g>
 </g>
-<g class="up">
-<rect x="48" y="40" width="44" height="44" rx="12" fill="{t["text"]}"/>
-<text x="70" y="70" text-anchor="middle" font-size="23" font-weight="800" fill="{t["card"]}">H</text>
-</g>
-<text class="up d1" x="48" y="124" font-size="15.5" font-weight="600" fill="{t["muted"]}">Vision AI · Model Serving · Real-time Apps</text>
-<text class="up d2" x="44" y="194" font-size="74" font-weight="700" letter-spacing="-2.5" fill="{t["text"]}">Hyesung.</text>
+<text class="up d1" x="48" y="78" font-size="15.5" font-weight="600" fill="{t["muted"]}">Vision AI · Model Serving · Real-time Apps</text>
+<text class="up d2" x="44" y="148" font-size="74" font-weight="700" letter-spacing="-2.5" fill="{t["text"]}">Hyesung.</text>
 <g class="up d3" font-size="21.5" font-weight="600" letter-spacing="-.3" fill="url(#gt)">
-<text x="48" y="234">Building AI vision tools</text>
-<text x="48" y="262">people can actually run.</text>
+<text x="48" y="188">Building AI vision tools</text>
+<text x="48" y="216">people can actually run.</text>
 </g>
 <g class="up d4" font-size="14" fill="{t["muted"]}">
-<text x="48" y="294">머신비전 · 딥러닝 · AI 서비스 개발을 공부하며,</text>
-<text x="48" y="315">직접 쓰고 싶은 앱과 게임을 만듭니다.</text>
+<text x="48" y="248">머신비전 · 딥러닝 · AI 서비스 개발을 공부하며,</text>
+<text x="48" y="269">직접 쓰고 싶은 앱과 게임을 만듭니다.</text>
 </g>
 {pose_card(t, 564, 43)}'''
     return svg(W, h, "Hyesung — Building AI vision tools people can actually run.", body, defs)
