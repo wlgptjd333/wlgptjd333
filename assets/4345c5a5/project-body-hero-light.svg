@@ -25,9 +25,8 @@
 <text x="108" y="102" font-size="15" fill="#6e6e73">웹캠 하나로 즐기는 2D 복싱 체감형 게임. 펀치 · 어퍼컷 · 가드 · 스쿼트로 몬스터와 싸웁니다.</text>
 <rect x="108" y="120" width="84" height="28" rx="14" fill="#ffffff"/><text x="150" y="139" text-anchor="middle" font-size="13" font-weight="500" fill="#6e6e73">Godot 4.6</text>
 <rect x="199" y="120" width="116" height="28" rx="14" fill="#ffffff"/><text x="257" y="139" text-anchor="middle" font-size="13" font-weight="500" fill="#6e6e73">MediaPipe Pose</text>
-<rect x="322" y="120" width="73" height="28" rx="14" fill="#ffffff"/><text x="359" y="139" text-anchor="middle" font-size="13" font-weight="500" fill="#6e6e73">1D-CNN</text>
-<rect x="402" y="120" width="67" height="28" rx="14" fill="#ffffff"/><text x="436" y="139" text-anchor="middle" font-size="13" font-weight="500" fill="#6e6e73">Python</text>
-<rect x="476" y="120" width="49" height="28" rx="14" fill="#ffffff"/><text x="501" y="139" text-anchor="middle" font-size="13" font-weight="500" fill="#6e6e73">UDP</text>
+<rect x="322" y="120" width="154" height="28" rx="14" fill="#ffffff"/><text x="399" y="139" text-anchor="middle" font-size="13" font-weight="500" fill="#6e6e73">TensorFlow · 1D-CNN</text>
+<rect x="484" y="120" width="67" height="28" rx="14" fill="#ffffff"/><text x="517" y="139" text-anchor="middle" font-size="13" font-weight="500" fill="#6e6e73">Python</text>
 <rect x="785" y="28" width="67" height="26" rx="13" fill="#e5f0fb"/>
 <circle cx="800" cy="41" r="4" fill="#0066cc"/>
 <text x="810" y="45.5" font-size="13" font-weight="700" fill="#0066cc">Done</text>

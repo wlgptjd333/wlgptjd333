@@ -142,18 +142,18 @@ def header(t):
 <rect x="48" y="40" width="44" height="44" rx="12" fill="{t["text"]}"/>
 <text x="70" y="70" text-anchor="middle" font-size="23" font-weight="800" fill="{t["card"]}">H</text>
 </g>
-<text class="up d1" x="48" y="124" font-size="15.5" font-weight="600" fill="{t["muted"]}">AI Vision · Apps · Games</text>
+<text class="up d1" x="48" y="124" font-size="15.5" font-weight="600" fill="{t["muted"]}">Vision AI · Model Serving · Real-time Apps</text>
 <text class="up d2" x="44" y="194" font-size="74" font-weight="700" letter-spacing="-2.5" fill="{t["text"]}">Hyesung.</text>
 <g class="up d3" font-size="21.5" font-weight="600" letter-spacing="-.3" fill="url(#gt)">
-<text x="48" y="234">Building AI vision tools and apps,</text>
-<text x="48" y="262">and writing down what I learn.</text>
+<text x="48" y="234">Building AI vision tools</text>
+<text x="48" y="262">people can actually run.</text>
 </g>
 <g class="up d4" font-size="14" fill="{t["muted"]}">
 <text x="48" y="294">머신비전 · 딥러닝 · AI 서비스 개발을 공부하며,</text>
 <text x="48" y="315">직접 쓰고 싶은 앱과 게임을 만듭니다.</text>
 </g>
 {pose_card(t, 564, 43)}'''
-    return svg(W, h, "Hyesung — Building AI vision tools and apps, and writing down what I learn.", body, defs)
+    return svg(W, h, "Hyesung — Building AI vision tools people can actually run.", body, defs)
 
 
 # ---------- 소개 카드 3개 ----------
@@ -181,9 +181,9 @@ def about(t):
 # ---------- 하이라이트: 프로젝트별 개선 전 → 후 ----------
 HIGHLIGHTS = [  # 이모지, 프로젝트, 비교 조건, [(지표, 전, 후, 부연)]
     ("🥊", "Body Hero", "v1.0 → v1.1",
-     [("어퍼컷 인식률", 37.3, 91.0, "같은 플레이 기록 재생"), ("잘못 나간 공격", 24.8, 4.0, "낮을수록 좋음")]),
+     [("어퍼컷 인식률", 37.3, 91.0, "실험자 1명의 플레이 기록 재생"), ("잘못 나간 공격", 24.8, 4.0, "낮을수록 좋음")]),
     ("🌱", "콩잎 질병 분류", "헤드만 학습 → 전체 Fine-tuning",
-     [("Test 정확도", 71.9, 97.7, "125 / 128장"), ("녹병 재현율", 64.4, 95.6, "Validation 43 / 45장")]),
+     [("Test 정확도", 71.9, 97.7, "Test 128장 중 125장"), ("녹병 재현율", 64.4, 95.6, "Validation 45장 중 43장")]),
 ]
 
 
@@ -218,16 +218,13 @@ def highlights(t):
 PROJECTS = [
     ("body-hero", "🥊", "GAME · 졸업작품", "Body Hero", "done",
      "웹캠 하나로 즐기는 2D 복싱 체감형 게임. 펀치 · 어퍼컷 · 가드 · 스쿼트로 몬스터와 싸웁니다.",
-     ["Godot 4.6", "MediaPipe Pose", "1D-CNN", "Python", "UDP"]),
+     ["Godot 4.6", "MediaPipe Pose", "TensorFlow · 1D-CNN", "Python"]),
     ("beans", "🌱", "VISION AI · API", "콩잎 질병 분류 Vision AI 서비스", "done",
-     "ResNet-18을 Fine-tuning해 동기 · 비동기 API로 서빙합니다. Test 정확도 0.72 → 0.98.",
+     "ResNet-18을 Fine-tuning해 동기 · 비동기 API로 서빙합니다. Test 정확도 71.9% → 97.7%.",
      ["PyTorch", "FastAPI", "Celery", "Redis", "PostgreSQL", "Docker"]),
     ("coinfloat", "🪙", "ANDROID · WEB", "CoinFloat", "live",
-     "다른 앱 위에 뜨는 초소형 실시간 시세 오버레이. 웹 버전과 내장 차트도 있습니다.",
-     ["Android", "WebSocket", "Lightweight Charts", "Pine Script"]),
-    ("inklog", "📝", "OCR · 미니프로젝트", "InkLog", "wip",
-     "종이 점검일지를 사진 한 장으로 칸별 데이터로 바꾸고, 범위를 벗어난 값은 바로 알려 줍니다.",
-     ["OpenCV", "OCR", "Python", "FastAPI"]),
+     "다른 앱 위에 뜨는 초소형 실시간 시세 오버레이. 직접 쓰면서 6주 동안 78회 릴리스했습니다.",
+     ["Kotlin", "JavaScript", "WebSocket", "Lightweight Charts"]),
 ]
 
 
@@ -253,25 +250,23 @@ def project(t, em, eyebrow, title, status, summary, tags):
 
 
 # ---------- 기술 스택 ----------
-STACK = [
-    ("🤖", "AI · Vision", ["PyTorch", "Transformers", "YOLO", "MediaPipe", "OpenCV"]),
-    ("⚙️", "Serving", ["FastAPI", "Celery", "Redis", "PostgreSQL", "SQLAlchemy", "Docker Compose"]),
-    ("🎮", "Game · App", ["Godot 4", "Android", "JavaScript", "WebSocket", "Three.js"]),
-    ("🧰", "Tools", ["Git", "GitHub", "WSL2 (Ubuntu)", "uv", "Jekyll"]),
+STACK = [  # 위 프로젝트에서 실제로 쓴 것만 적는다.
+    ("🤖", "AI · Vision", ["PyTorch", "TensorFlow · Keras", "MediaPipe", "YOLO Pose", "OpenCV"]),
+    ("⚙️", "Serving", ["FastAPI", "Celery", "Redis", "PostgreSQL", "Docker Compose"]),
+    ("🎮", "App · Game", ["Godot 4", "Kotlin", "JavaScript", "WebSocket"]),
 ]
 
 
 def stack(t):
     parts = []
     for i, (em, title, items) in enumerate(STACK):
-        x, y = (i % 2) * 450, (i // 2) * 150
-        parts.append(f'''<g transform="translate({x} {y})"><g class="up d{i + 1}">
-<rect width="430" height="130" rx="24" fill="{t["card"]}"/>
+        parts.append(f'''<g transform="translate({i * 300} 0)"><g class="up d{i + 1}">
+<rect width="280" height="170" rx="24" fill="{t["card"]}"/>
 {emoji(36, 44, 20, em)}
 <text x="56" y="43" font-size="17" font-weight="700" letter-spacing="-.2" fill="{t["text"]}">{escape(title)}</text>
-{chips(items, 22, 60, t, 410)}
+{chips(items, 22, 62, t, 262)}
 </g></g>''')
-    return svg(W, 280, " / ".join(f"{s[1]}: {', '.join(s[2])}" for s in STACK), "\n".join(parts))
+    return svg(W, 170, " / ".join(f"{s[1]}: {', '.join(s[2])}" for s in STACK), "\n".join(parts))
 
 
 # ---------- 알약 버튼 ----------

@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 172" width="880" height="172" role="img" aria-label="콩잎 질병 분류 Vision AI 서비스: ResNet-18을 Fine-tuning해 동기 · 비동기 API로 서빙합니다. Test 정확도 0.72 → 0.98.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 172" width="880" height="172" role="img" aria-label="콩잎 질병 분류 Vision AI 서비스: ResNet-18을 Fine-tuning해 동기 · 비동기 API로 서빙합니다. Test 정확도 71.9% → 97.7%.">
 <defs><style>
 .up{animation:up .9s cubic-bezier(.2,.7,.2,1) both}
 .d1{animation-delay:.1s}.d2{animation-delay:.2s}.d3{animation-delay:.3s}.d4{animation-delay:.4s}.d5{animation-delay:.5s}
@@ -22,7 +22,7 @@
 <text x="58" y="69" text-anchor="middle" font-size="30" font-family="'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', sans-serif">🌱</text>
 <text x="108" y="44" font-size="12.5" font-weight="700" letter-spacing=".6" fill="#2997ff">VISION AI · API</text>
 <text x="107" y="75" font-size="25" font-weight="700" letter-spacing="-.5" fill="#f5f5f7">콩잎 질병 분류 Vision AI 서비스</text>
-<text x="108" y="102" font-size="15" fill="#98989d">ResNet-18을 Fine-tuning해 동기 · 비동기 API로 서빙합니다. Test 정확도 0.72 → 0.98.</text>
+<text x="108" y="102" font-size="15" fill="#98989d">ResNet-18을 Fine-tuning해 동기 · 비동기 API로 서빙합니다. Test 정확도 71.9% → 97.7%.</text>
 <rect x="108" y="120" width="76" height="28" rx="14" fill="#2c2c2e"/><text x="146" y="139" text-anchor="middle" font-size="13" font-weight="500" fill="#98989d">PyTorch</text>
 <rect x="191" y="120" width="78" height="28" rx="14" fill="#2c2c2e"/><text x="230" y="139" text-anchor="middle" font-size="13" font-weight="500" fill="#98989d">FastAPI</text>
 <rect x="276" y="120" width="64" height="28" rx="14" fill="#2c2c2e"/><text x="308" y="139" text-anchor="middle" font-size="13" font-weight="500" fill="#98989d">Celery</text>

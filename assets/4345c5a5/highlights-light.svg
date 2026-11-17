@@ -27,7 +27,7 @@
 <rect x="24" y="174" width="176" height="7" rx="3.5" fill="#e3e3e8"/>
 <rect class="grow" x="24" y="174" width="160" height="7" rx="3.5" fill="url(#gb)"/>
 <rect x="90" y="171" width="2" height="13" rx="1" fill="#6e6e73"/>
-<text x="24" y="204" font-size="12.5" fill="#6e6e73">같은 플레이 기록 재생</text>
+<text x="24" y="204" font-size="12.5" fill="#6e6e73">실험자 1명의 플레이 기록 재생</text>
 <text x="224" y="86" font-size="13.5" font-weight="600" fill="#6e6e73">잘못 나간 공격</text>
 <text x="223" y="134" font-size="40" font-weight="700" letter-spacing="-1.5" fill="#1d1d1f">4.0<tspan font-size="20" font-weight="600" letter-spacing="0">%</tspan></text>
 <text x="224" y="160" font-size="14" font-weight="600" fill="#0066cc">24.8% → 4.0%</text>
@@ -47,14 +47,14 @@
 <rect x="24" y="174" width="176" height="7" rx="3.5" fill="#e3e3e8"/>
 <rect class="grow" x="24" y="174" width="172" height="7" rx="3.5" fill="url(#gb)"/>
 <rect x="151" y="171" width="2" height="13" rx="1" fill="#6e6e73"/>
-<text x="24" y="204" font-size="12.5" fill="#6e6e73">125 / 128장</text>
+<text x="24" y="204" font-size="12.5" fill="#6e6e73">Test 128장 중 125장</text>
 <text x="224" y="86" font-size="13.5" font-weight="600" fill="#6e6e73">녹병 재현율</text>
 <text x="223" y="134" font-size="40" font-weight="700" letter-spacing="-1.5" fill="#1d1d1f">95.6<tspan font-size="20" font-weight="600" letter-spacing="0">%</tspan></text>
 <text x="224" y="160" font-size="14" font-weight="600" fill="#0066cc">64.4% → 95.6%</text>
 <rect x="224" y="174" width="176" height="7" rx="3.5" fill="#e3e3e8"/>
 <rect class="grow" x="224" y="174" width="168" height="7" rx="3.5" fill="url(#gb)"/>
 <rect x="337" y="171" width="2" height="13" rx="1" fill="#6e6e73"/>
-<text x="224" y="204" font-size="12.5" fill="#6e6e73">Validation 43 / 45장</text>
+<text x="224" y="204" font-size="12.5" fill="#6e6e73">Validation 45장 중 43장</text>
 </g></g>
 </g>
 </svg>

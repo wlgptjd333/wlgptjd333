@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 336" width="880" height="336" role="img" aria-label="Hyesung — Building AI vision tools and apps, and writing down what I learn.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 336" width="880" height="336" role="img" aria-label="Hyesung — Building AI vision tools people can actually run.">
 <defs><style>
 .up{animation:up .9s cubic-bezier(.2,.7,.2,1) both}
 .d1{animation-delay:.1s}.d2{animation-delay:.2s}.d3{animation-delay:.3s}.d4{animation-delay:.4s}.d5{animation-delay:.5s}
@@ -34,11 +34,11 @@
 <rect x="48" y="40" width="44" height="44" rx="12" fill="#1d1d1f"/>
 <text x="70" y="70" text-anchor="middle" font-size="23" font-weight="800" fill="#f5f5f7">H</text>
 </g>
-<text class="up d1" x="48" y="124" font-size="15.5" font-weight="600" fill="#6e6e73">AI Vision · Apps · Games</text>
+<text class="up d1" x="48" y="124" font-size="15.5" font-weight="600" fill="#6e6e73">Vision AI · Model Serving · Real-time Apps</text>
 <text class="up d2" x="44" y="194" font-size="74" font-weight="700" letter-spacing="-2.5" fill="#1d1d1f">Hyesung.</text>
 <g class="up d3" font-size="21.5" font-weight="600" letter-spacing="-.3" fill="url(#gt)">
-<text x="48" y="234">Building AI vision tools and apps,</text>
-<text x="48" y="262">and writing down what I learn.</text>
+<text x="48" y="234">Building AI vision tools</text>
+<text x="48" y="262">people can actually run.</text>
 </g>
 <g class="up d4" font-size="14" fill="#6e6e73">
 <text x="48" y="294">머신비전 · 딥러닝 · AI 서비스 개발을 공부하며,</text>
