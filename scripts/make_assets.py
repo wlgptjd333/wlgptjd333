@@ -223,7 +223,7 @@ PROJECTS = [
      "ResNet-18을 Fine-tuning해 동기 · 비동기 API로 서빙합니다. Test 정확도 71.9% → 97.7%.",
      ["PyTorch", "FastAPI", "Celery", "Redis", "PostgreSQL", "Docker"]),
     ("coinfloat", "🪙", "ANDROID · WEB", "CoinFloat", "live",
-     "다른 앱 위에 뜨는 초소형 실시간 시세 오버레이. 직접 쓰면서 6주 동안 78회 릴리스했습니다.",
+     "다른 앱 위에 뜨는 초소형 실시간 시세 오버레이. 직접 쓰면서 계속 고쳐 배포하고 있습니다.",
      ["Kotlin", "JavaScript", "WebSocket", "Lightweight Charts"]),
 ]
 
