@@ -103,7 +103,7 @@ def header(t):
 <text class="up d1" x="{W / 2}" y="122" text-anchor="middle" font-size="16" font-weight="600" fill="{t["muted"]}">AI Vision · Apps · Games</text>
 <text class="up d2" x="{W / 2}" y="200" text-anchor="middle" font-size="78" font-weight="700" letter-spacing="-2.5" fill="{t["text"]}">Hyesung.</text>
 <text class="up d3" x="{W / 2}" y="246" text-anchor="middle" font-size="23" font-weight="600" letter-spacing="-.3" fill="url(#gt)">Building AI vision tools and apps, and writing down what I learn.</text>
-<text class="up d4" x="{W / 2}" y="284" text-anchor="middle" font-size="14.5" fill="{t["muted"]}">Vision AI 과정에서 머신비전 · 딥러닝 · AI 서비스 개발을 공부하며, 직접 쓰고 싶은 앱과 게임을 만듭니다.</text>'''
+<text class="up d4" x="{W / 2}" y="284" text-anchor="middle" font-size="14.5" fill="{t["muted"]}">머신비전 · 딥러닝 · AI 서비스 개발을 공부하며, 직접 쓰고 싶은 앱과 게임을 만듭니다.</text>'''
     return svg(W, h, "Hyesung — Building AI vision tools and apps, and writing down what I learn.", body, defs)
 
 

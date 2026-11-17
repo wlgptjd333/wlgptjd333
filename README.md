@@ -98,14 +98,14 @@
 
 ## 🌱 Now Learning
 
-Vision AI 과정에서 교과별 실습과 과제를 [vision-ai-lab](https://github.com/wlgptjd333/vision-ai-lab)에 쌓고 있습니다. (기초 과정은 [ai-dev-basics](https://github.com/wlgptjd333/ai-dev-basics))
+Vision AI 실습과 과제를 [vision-ai-lab](https://github.com/wlgptjd333/vision-ai-lab)에 쌓고 있습니다. (Python · ML · DL 기초는 [ai-dev-basics](https://github.com/wlgptjd333/ai-dev-basics))
 
-| 교과 | 내용 |
+| 주제 | 내용 |
 | :--- | :--- |
-| **7 · 8** | 조각김치 이물 검출 팀 프로젝트 (라벨링 → YOLO) |
-| **9** | OpenCV 규칙 기반 머신비전 · FastAPI AI 서빙 · 평가과제 |
-| **10** | YOLO Pose 자세추정 · 동작분석 |
-| **12** | VICON 모션캡처 GLB → FastAPI · Three.js 재생, 웹캠 YOLO Pose와 비교 |
+| **객체 검출** | 조각김치 이물 검출 팀 프로젝트 (라벨링 → YOLO) |
+| **머신비전 · 서빙** | OpenCV 규칙 기반 머신비전 · FastAPI AI 서빙 |
+| **자세추정** | YOLO Pose 자세추정 · 동작분석 |
+| **모션캡처** | VICON 모션캡처 GLB → FastAPI · Three.js 재생, 웹캠 YOLO Pose와 비교 |
 
 <div align="right"><a href="#top"><sub><b>↑ 맨 위로</b></sub></a></div>
 
