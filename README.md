@@ -3,15 +3,11 @@
 
 <div align="center">
 
-<img src="assets/header.svg" width="100%" alt="Hyesung · Vision AI · Apps · Games — Vision AI를 직접 써 볼 수 있는 게임 · 앱 · API로 만듭니다."/>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg"/><img src="assets/header-light.svg" width="100%" alt="Hyesung · Vision AI · Apps · Games — Vision AI를 직접 써 볼 수 있는 게임 · 앱 · API로 만듭니다."/></picture>
 
 <br/>
 
-[![About](https://img.shields.io/badge/About-16233A?style=for-the-badge)](#-about)
-[![Highlights](https://img.shields.io/badge/Highlights-24426B?style=for-the-badge)](#-highlights)
-[![Projects](https://img.shields.io/badge/Projects-3A6EA5?style=for-the-badge)](#-projects)
-[![Stack](https://img.shields.io/badge/Tech_Stack-5D728F?style=for-the-badge)](#-tech-stack)
-[![Links](https://img.shields.io/badge/Links-F2A541?style=for-the-badge)](#-links)
+<b><a href="#-about">About</a> &nbsp;·&nbsp; <a href="#-highlights">Highlights</a> &nbsp;·&nbsp; <a href="#-projects">Projects</a> &nbsp;·&nbsp; <a href="#-tech-stack">Tech Stack</a> &nbsp;·&nbsp; <a href="#-links">Links</a></b>
 
 </div>
 
@@ -51,7 +47,7 @@ WebSocket 실시간 데이터를 다루는 **Android 오버레이 앱과 웹 버
 
 ## 📊 Highlights
 
-<img src="assets/highlights.svg" width="100%" alt="어퍼컷 인식 37.3% → 91.0% · 콩잎 질병 분류 Test 정확도 0.72 → 0.98 · 동기 API 응답 22 ms · 기능 테스트 18 / 18"/>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/highlights-dark.svg"/><img src="assets/highlights-light.svg" width="100%" alt="어퍼컷 인식 37.3% → 91.0% · 콩잎 질병 분류 Test 정확도 0.72 → 0.98 · 동기 API 응답 22 ms · 기능 테스트 18 / 18"/></picture>
 
 <sub>※ 각 수치는 아래 프로젝트 저장소의 README에 기록된 결과입니다.</sub>
 
@@ -63,7 +59,7 @@ WebSocket 실시간 데이터를 다루는 **Android 오버레이 앱과 웹 버
 
 <sub>카드를 누르면 저장소로 이동합니다.</sub>
 
-<a href="https://github.com/wlgptjd333/body-hero"><img src="assets/project-01.svg" width="100%" alt="01 Body Hero: 웹캠 하나로 즐기는 2D 복싱 체감형 게임"/></a>
+<a href="https://github.com/wlgptjd333/body-hero"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-body-hero-dark.svg"/><img src="assets/project-body-hero-light.svg" width="100%" alt="01 Body Hero: 웹캠 하나로 즐기는 2D 복싱 체감형 게임"/></picture></a>
 
 <table>
 <tr><td width="96" nowrap><b>문제</b></td><td>체감형 게임은 전용 컨트롤러나 VR 장비가 필요합니다. <b>일반 웹캠 하나</b>로 펀치 · 어퍼컷 · 가드 · 스쿼트를 인식하고 싶었습니다.</td></tr>
@@ -72,14 +68,13 @@ WebSocket 실시간 데이터를 다루는 **Android 오버레이 앱과 웹 버
 <tr><td width="96" nowrap><b>기술</b></td><td><code>Python</code> <code>MediaPipe</code> <code>1D-CNN</code> <code>Godot 4.6</code> <code>UDP</code></td></tr>
 </table>
 
-<a href="https://github.com/wlgptjd333/body-hero"><img src="https://img.shields.io/badge/Repository-16233A?style=flat-square&logo=github" alt="repository"/></a>
-<a href="https://github.com/wlgptjd333/body-hero/releases/latest"><img src="https://img.shields.io/badge/Download-Release-F2A541?style=flat-square" alt="release"/></a>
+<a href="https://github.com/wlgptjd333/body-hero"><b>GitHub ↗</b></a> &nbsp;&nbsp; <a href="https://github.com/wlgptjd333/body-hero/releases/latest"><b>Download ↗</b></a>
 
 <div align="right"><a href="#top"><sub><b>↑ 맨 위로</b></sub></a></div>
 
 <br/>
 
-<a href="https://github.com/wlgptjd333/bean-leaf-disease-api"><img src="assets/project-02.svg" width="100%" alt="02 콩잎 질병 분류 Vision AI 서비스: ResNet-18 Fine-tuning을 동기 · 비동기 API로 서빙"/></a>
+<a href="https://github.com/wlgptjd333/bean-leaf-disease-api"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-beans-dark.svg"/><img src="assets/project-beans-light.svg" width="100%" alt="02 콩잎 질병 분류 Vision AI 서비스: ResNet-18 Fine-tuning을 동기 · 비동기 API로 서빙"/></picture></a>
 
 <table>
 <tr><td width="96" nowrap><b>문제</b></td><td>헤드만 학습한 기준선은 Test 정확도가 0.72에 그쳤고, 모델을 실제 요청으로 받을 <b>서비스 구조</b>도 필요했습니다.</td></tr>
@@ -89,13 +84,13 @@ WebSocket 실시간 데이터를 다루는 **Android 오버레이 앱과 웹 버
 <tr><td width="96" nowrap><b>기술</b></td><td><code>PyTorch</code> <code>Transformers</code> <code>FastAPI</code> <code>Celery</code> <code>Redis</code> <code>PostgreSQL</code> <code>Docker</code></td></tr>
 </table>
 
-<a href="https://github.com/wlgptjd333/bean-leaf-disease-api"><img src="https://img.shields.io/badge/Repository-16233A?style=flat-square&logo=github" alt="repository"/></a>
+<a href="https://github.com/wlgptjd333/bean-leaf-disease-api"><b>GitHub ↗</b></a>
 
 <div align="right"><a href="#top"><sub><b>↑ 맨 위로</b></sub></a></div>
 
 <br/>
 
-<a href="https://github.com/wlgptjd333/coin-float"><img src="assets/project-03.svg" width="100%" alt="03 CoinFloat: 다른 앱 위에 뜨는 초소형 실시간 시세 오버레이"/></a>
+<a href="https://github.com/wlgptjd333/coin-float"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-coinfloat-dark.svg"/><img src="assets/project-coinfloat-light.svg" width="100%" alt="03 CoinFloat: 다른 앱 위에 뜨는 초소형 실시간 시세 오버레이"/></picture></a>
 
 <table>
 <tr><td width="96" nowrap><b>문제</b></td><td>다른 앱을 쓰는 동안에도 시세를 보고 싶은데, 기존 앱은 화면을 크게 가리거나 앱을 전환해야 했습니다.</td></tr>
@@ -104,14 +99,13 @@ WebSocket 실시간 데이터를 다루는 **Android 오버레이 앱과 웹 버
 <tr><td width="96" nowrap><b>기술</b></td><td><code>Android</code> <code>JavaScript</code> <code>WebSocket</code> <code>Lightweight Charts</code></td></tr>
 </table>
 
-<a href="https://github.com/wlgptjd333/coin-float"><img src="https://img.shields.io/badge/Repository-16233A?style=flat-square&logo=github" alt="repository"/></a>
-<a href="https://coinfloat.byhyesung.com/"><img src="https://img.shields.io/badge/Web-coinfloat.byhyesung.com-3A6EA5?style=flat-square" alt="web"/></a>
+<a href="https://github.com/wlgptjd333/coin-float"><b>GitHub ↗</b></a> &nbsp;&nbsp; <a href="https://coinfloat.byhyesung.com/"><b>Website ↗</b></a>
 
 <div align="right"><a href="#top"><sub><b>↑ 맨 위로</b></sub></a></div>
 
 <br/>
 
-<a href="https://github.com/wlgptjd333/handnote-digitizer"><img src="assets/project-04.svg" width="100%" alt="04 InkLog (진행 중): 종이 점검일지를 사진 한 장으로 칸별 데이터로"/></a>
+<a href="https://github.com/wlgptjd333/handnote-digitizer"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-inklog-dark.svg"/><img src="assets/project-inklog-light.svg" width="100%" alt="04 InkLog (진행 중): 종이 점검일지를 사진 한 장으로 칸별 데이터로"/></picture></a>
 
 <table>
 <tr><td width="96" nowrap><b>문제</b></td><td>기존 OCR은 페이지를 글자 덩어리로 돌려줄 뿐, <b>어느 숫자가 온도인지 · 체크됐는지 · 기준을 넘었는지</b>는 모릅니다.</td></tr>
@@ -120,7 +114,7 @@ WebSocket 실시간 데이터를 다루는 **Android 오버레이 앱과 웹 버
 <tr><td width="96" nowrap><b>기술</b></td><td><code>Python</code> <code>OpenCV</code> <code>FastAPI</code></td></tr>
 </table>
 
-<a href="https://github.com/wlgptjd333/handnote-digitizer"><img src="https://img.shields.io/badge/Repository-16233A?style=flat-square&logo=github" alt="repository"/></a>
+<a href="https://github.com/wlgptjd333/handnote-digitizer"><b>GitHub ↗</b></a>
 
 <div align="right"><a href="#top"><sub><b>↑ 맨 위로</b></sub></a></div>
 
@@ -143,16 +137,6 @@ Vision AI 과정에서 교과별 실습과 과제를 [vision-ai-lab](https://git
 
 ## 🛠 Tech Stack
 
-<div align="center">
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black) ![YOLO](https://img.shields.io/badge/YOLO-111F68?style=flat-square&logo=yolo&logoColor=white) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white) ![MediaPipe](https://img.shields.io/badge/MediaPipe-0097A7?style=flat-square&logo=mediapipe&logoColor=white)
-<br/>
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Celery](https://img.shields.io/badge/Celery-37814A?style=flat-square&logo=celery&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Godot](https://img.shields.io/badge/Godot-478CBF?style=flat-square&logo=godotengine&logoColor=white) ![Android](https://img.shields.io/badge/Android-34A853?style=flat-square&logo=android&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-
-</div>
-
-<br/>
-
 | 분야 | 기술 |
 | :--- | :--- |
 | 🤖 **AI · Vision** | `PyTorch` `Hugging Face Transformers` `YOLO (Ultralytics)` `MediaPipe` `OpenCV` |
@@ -168,8 +152,7 @@ Vision AI 과정에서 교과별 실습과 과제를 [vision-ai-lab](https://git
 
 <div align="center">
 
-[![Home](https://img.shields.io/badge/Home-byhyesung.com-16233A?style=for-the-badge)](https://byhyesung.com/)
-[![GitHub](https://img.shields.io/badge/GitHub-wlgptjd333-24426B?style=for-the-badge&logo=github)](https://github.com/wlgptjd333)
+<b><a href="https://byhyesung.com/">byhyesung.com ↗</a> &nbsp;&nbsp; <a href="https://github.com/wlgptjd333?tab=repositories">Repositories ↗</a></b>
 
 <br/>
 

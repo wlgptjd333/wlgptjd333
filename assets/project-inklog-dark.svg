@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 190" width="1200" height="190" role="img" aria-label="InkLog: 종이 점검일지를 사진 한 장으로 칸별 데이터로 바꾸고, 범위를 벗어난 값은 바로 알려 줍니다.">
+<g font-family="'Pretendard Variable', Pretendard, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif">
+<rect x="0.5" y="0.5" width="1199" height="189" rx="16" fill="#1b1b1e" stroke="#2e2e33"/>
+<rect x="32" y="32" width="64" height="64" rx="16" fill="#232327"/>
+<text x="64" y="76" text-anchor="middle" font-size="32">📝</text>
+<text x="120" y="62" font-size="27" font-weight="750" fill="#ececef">InkLog</text>
+<text x="120" y="96" font-size="19" fill="#9c9ca4">종이 점검일지를 사진 한 장으로 칸별 데이터로 바꾸고, 범위를 벗어난 값은 바로 알려 줍니다.</text>
+<rect x="1042" y="32" width="126" height="32" rx="16" fill="#3a2a15"/>
+<text x="1105" y="54" text-anchor="middle" font-size="16" font-weight="700" fill="#f2b56b">In progress</text>
+<rect x="120" y="124" width="86" height="34" rx="8" fill="#232327"/><text x="163" y="147" text-anchor="middle" font-size="17" fill="#9c9ca4">OpenCV</text>
+<rect x="214" y="124" width="59" height="34" rx="8" fill="#232327"/><text x="244" y="147" text-anchor="middle" font-size="17" fill="#9c9ca4">OCR</text>
+<rect x="281" y="124" width="83" height="34" rx="8" fill="#232327"/><text x="322" y="147" text-anchor="middle" font-size="17" fill="#9c9ca4">Python</text>
+</g>
+</svg>
