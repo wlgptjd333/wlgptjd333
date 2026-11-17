@@ -98,20 +98,20 @@ def pose_card(t, x, y):
 <rect width="240" height="150" rx="14" fill="{t["card"]}"/>
 <path d="M10 24V16a6 6 0 0 1 6-6h8M216 10h8a6 6 0 0 1 6 6v8M230 126v8a6 6 0 0 1-6 6h-8M24 140h-8a6 6 0 0 1-6-6v-8" fill="none" stroke="{t["muted"]}" stroke-width="1.6" stroke-linecap="round" opacity=".55"/>
 <rect x="76" y="16" width="90" height="126" rx="6" fill="none" stroke="#ff9f0a" stroke-width="1.6" stroke-dasharray="5 4">{anim("width", 90, 132)}</rect>
-<rect x="76" y="2" width="86" height="16" rx="4" fill="#ff9f0a"/>
+<rect x="76" y="2" width="98" height="16" rx="4" fill="#ff9f0a"/>
 <text x="82" y="14" font-size="11" font-weight="700" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" fill="#1d1d1f">guard 0.94{anim("opacity", 1, 0)}</text>
 <text x="82" y="14" font-size="11" font-weight="700" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" fill="#1d1d1f" opacity="0">punch_r 0.97{anim("opacity", 0, 1)}</text>
 <g {line}>
-<path d="M100 60H140M120 54V106M108 106H132M108 106L104 138M132 106L136 138M100 60L92 82L104 62"/>
-<polyline points="140,60 148,82 136,62">{anim("points", "140,60 148,82 136,62", "140,60 168,60 198,56")}</polyline>
+<path d="M100 60H140M120 54V106M108 106H132M108 106L104 138M132 106L136 138M100 60L90 80L108 48"/>
+<polyline points="140,60 150,80 132,48">{anim("points", "140,60 150,80 132,48", "140,60 168,60 198,56")}</polyline>
 </g>
 <circle cx="120" cy="38" r="11" fill="none" stroke="{t["accent"]}" stroke-width="3.2"/>
 <g {dot}>
-<circle cx="100" cy="60" r="3.6"/><circle cx="140" cy="60" r="3.6"/><circle cx="92" cy="82" r="3.6"/><circle cx="104" cy="62" r="4.4"/>
+<circle cx="100" cy="60" r="3.6"/><circle cx="140" cy="60" r="3.6"/><circle cx="90" cy="80" r="3.6"/><circle cx="108" cy="48" r="4.4"/>
 <circle cx="108" cy="106" r="3.6"/><circle cx="132" cy="106" r="3.6"/>
-<circle cx="148" cy="82" r="3.6">{anim("cx", 148, 168)}{anim("cy", 82, 60)}</circle>
+<circle cx="150" cy="80" r="3.6">{anim("cx", 150, 168)}{anim("cy", 80, 60)}</circle>
 </g>
-<circle cx="136" cy="62" r="5.2" fill="#ff375f">{anim("cx", 136, 198)}{anim("cy", 62, 56)}</circle>
+<circle cx="132" cy="48" r="5.2" fill="#ff375f">{anim("cx", 132, 198)}{anim("cy", 48, 56)}</circle>
 </g>
 <text x="18" y="216" font-size="12.5" font-weight="700" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" fill="{t["text"]}">punch_r</text>
 <rect x="82" y="207" width="172" height="8" rx="4" fill="{t["track"]}"/>
