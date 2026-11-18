@@ -1,46 +1,39 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 336" width="880" height="336" role="img" aria-label="Hyesung — Building AI vision tools people can actually run.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 300" width="880" height="300" role="img" aria-label="지혜성 Hyesung Ji — 사람의 동작을 인식하는 비전 AI를 만듭니다. Pose Estimation · Action Recognition · Model Serving">
 <defs><style>
 .up{animation:up .9s cubic-bezier(.2,.7,.2,1) both}
-.d1{animation-delay:.1s}.d2{animation-delay:.2s}.d3{animation-delay:.3s}.d4{animation-delay:.4s}.d5{animation-delay:.5s}
+.d1{animation-delay:.08s}.d2{animation-delay:.16s}.d3{animation-delay:.24s}.d4{animation-delay:.32s}
 @keyframes up{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
-.grow{transform-box:fill-box;transform-origin:left center;animation:grow 1.5s cubic-bezier(.2,.7,.2,1) .5s both}
-@keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
 .pulse{transform-box:fill-box;transform-origin:center;animation:pulse 2s ease-out infinite}
 @keyframes pulse{from{transform:scale(1);opacity:.7}to{transform:scale(2.6);opacity:0}}
 .drift{animation:drift 12s ease-in-out infinite alternate}
 .drift2{animation:drift2 15s ease-in-out infinite alternate}
 @keyframes drift{to{transform:translate(70px,26px)}}
 @keyframes drift2{to{transform:translate(-80px,-20px)}}
-.pop{animation:pop .4s ease both}
-@keyframes pop{from{opacity:.12}to{opacity:1}}
 @media (prefers-reduced-motion:reduce){*{animation:none!important}}
-</style><clipPath id="c"><rect width="880" height="336" rx="32"/></clipPath>
+</style><clipPath id="c"><rect width="880" height="300" rx="32"/></clipPath>
 <filter id="b" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="55"/></filter>
-<filter id="sh" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000" flood-opacity=".12"/></filter>
+<filter id="sh" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000" flood-opacity="0.45"/></filter>
 <linearGradient id="gt" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="440" y2="0" spreadMethod="reflect">
 <stop offset="0" stop-color="#2997ff"/><stop offset=".5" stop-color="#bf5af2"/><stop offset="1" stop-color="#ff375f"/>
 <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="880 0" dur="9s" repeatCount="indefinite"/>
 </linearGradient></defs>
 <g font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Pretendard Variable', Pretendard, 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif">
 <g clip-path="url(#c)">
-<rect width="880" height="336" fill="#1c1c1e"/>
+<rect width="880" height="300" fill="#1c1c1e"/>
 <g filter="url(#b)" opacity="0.34">
-<circle class="drift" cx="60" cy="330" r="120" fill="#2997ff"/>
+<circle class="drift" cx="60" cy="300" r="120" fill="#2997ff"/>
 <circle class="drift2" cx="820" cy="30" r="120" fill="#bf5af2"/>
-<circle class="drift" cx="560" cy="350" r="90" fill="#ff375f"/>
+<circle class="drift" cx="560" cy="330" r="90" fill="#ff375f"/>
 </g>
 </g>
-<text class="up d1" x="48" y="78" font-size="15.5" font-weight="600" fill="#98989d">Vision AI · Model Serving · Real-time Apps</text>
-<text class="up d2" x="44" y="148" font-size="74" font-weight="700" letter-spacing="-2.5" fill="#f5f5f7">Hyesung.</text>
-<g class="up d3" font-size="21.5" font-weight="600" letter-spacing="-.3" fill="url(#gt)">
-<text x="48" y="188">Building AI vision tools</text>
-<text x="48" y="216">people can actually run.</text>
+<text class="up d1" x="46" y="122"><tspan font-size="66" font-weight="800" letter-spacing="-1.5" fill="#f5f5f7">지혜성</tspan><tspan dx="14" font-size="26" font-weight="600" letter-spacing="-.3" fill="#98989d">Hyesung Ji</tspan></text>
+<text class="up d2" x="48" y="170" font-size="21" font-weight="600" letter-spacing="-.3" fill="#f5f5f7">사람의 동작을 인식하는 비전 AI를 만듭니다.</text>
+<g class="up d3">
+<rect x="48" y="196" width="143" height="34" rx="17" fill="url(#gt)"/><text x="120" y="218" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff">Pose Estimation</text>
+<rect x="199" y="196" width="162" height="34" rx="17" fill="#2c2c2e"/><text x="280" y="218" text-anchor="middle" font-size="14" font-weight="600" fill="#f5f5f7">Action Recognition</text>
+<rect x="369" y="196" width="126" height="34" rx="17" fill="#2c2c2e"/><text x="432" y="218" text-anchor="middle" font-size="14" font-weight="600" fill="#f5f5f7">Model Serving</text>
 </g>
-<g class="up d4" font-size="14" fill="#98989d">
-<text x="48" y="248">머신비전 · 딥러닝 · AI 서비스 개발을 공부하며,</text>
-<text x="48" y="269">직접 쓰고 싶은 앱과 게임을 만듭니다.</text>
-</g>
-<g transform="translate(564 43)"><g class="up d3">
+<g transform="translate(564 25)"><g class="up d3">
 <rect width="272" height="250" rx="22" fill="#2c2c2e" filter="url(#sh)"/>
 <circle class="pulse" cx="24" cy="22" r="4" fill="#ff375f"/><circle cx="24" cy="22" r="4" fill="#ff375f"/>
 <text x="36" y="26.5" font-size="12" font-weight="700" letter-spacing=".5" fill="#f5f5f7">LIVE</text>
