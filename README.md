@@ -2,9 +2,9 @@
 
 <div align="center">
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/d340a4d5/header-dark.svg"/><img src="assets/d340a4d5/header-light.svg" width="100%" alt="지혜성 Hyesung Ji — 사람의 동작을 인식하는 비전 AI를 만듭니다. Pose Estimation · Action Recognition · Model Serving"/></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/718ac0b5/header-dark.svg"/><img src="assets/718ac0b5/header-light.svg" width="100%" alt="지혜성 Hyesung Ji — 사람의 동작을 인식하는 비전 AI를 만듭니다. Pose Estimation · Action Recognition · Model Serving"/></picture>
 
-<a href="#-projects"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/d340a4d5/btn-nav-projects-dark.svg"/><img src="assets/d340a4d5/btn-nav-projects-light.svg" height="36" alt="Projects"/></picture></a> <a href="#-tech-stack"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/d340a4d5/btn-nav-stack-dark.svg"/><img src="assets/d340a4d5/btn-nav-stack-light.svg" height="36" alt="Tech Stack"/></picture></a> <a href="https://byhyesung.com/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/d340a4d5/btn-home-dark.svg"/><img src="assets/d340a4d5/btn-home-light.svg" height="36" alt="byhyesung.com"/></picture></a>
+<a href="#-projects"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/718ac0b5/btn-nav-projects-dark.svg"/><img src="assets/718ac0b5/btn-nav-projects-light.svg" height="36" alt="Projects"/></picture></a> <a href="#-tech-stack"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/718ac0b5/btn-nav-stack-dark.svg"/><img src="assets/718ac0b5/btn-nav-stack-light.svg" height="36" alt="Tech Stack"/></picture></a> <a href="https://byhyesung.com/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/718ac0b5/btn-home-dark.svg"/><img src="assets/718ac0b5/btn-home-light.svg" height="36" alt="byhyesung.com"/></picture></a>
 
 </div>
 
@@ -12,9 +12,9 @@
 
 ## 🚀 Projects
 
-<a href="https://github.com/wlgptjd333/body-hero"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/d340a4d5/project-body-hero-dark.svg"/><img src="assets/d340a4d5/project-body-hero-light.svg" width="100%" alt="01 Body Hero (팀장 · 졸업작품): 웹캠 하나로 펀치 · 어퍼컷 · 가드 · 스쿼트를 인식해 몬스터와 싸우는 2D 복싱 게임입니다. 동작 7가지 분류 정확도 99.0%, GPU 없이 30 FPS"/></picture></a>
+<a href="https://github.com/wlgptjd333/body-hero"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/718ac0b5/project-body-hero-dark.svg"/><img src="assets/718ac0b5/project-body-hero-light.svg" width="100%" alt="01 Body Hero (팀장 · 졸업작품): 웹캠 하나로 펀치 · 어퍼컷 · 가드 · 스쿼트를 인식해 몬스터와 싸우는 2D 복싱 게임입니다. 동작 7가지 분류 정확도 99.0%, GPU 없이 30 FPS"/></picture></a>
 
-<a href="https://github.com/wlgptjd333/body-hero"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/d340a4d5/btn-github-dark.svg"/><img src="assets/d340a4d5/btn-github-light.svg" height="36" alt="GitHub"/></picture></a> <a href="https://github.com/wlgptjd333/body-hero/releases/latest"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/d340a4d5/btn-download-dark.svg"/><img src="assets/d340a4d5/btn-download-light.svg" height="36" alt="Download"/></picture></a>
+<a href="https://github.com/wlgptjd333/body-hero"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/718ac0b5/btn-github-dark.svg"/><img src="assets/718ac0b5/btn-github-light.svg" height="36" alt="GitHub"/></picture></a> <a href="https://github.com/wlgptjd333/body-hero/releases/latest"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/718ac0b5/btn-download-dark.svg"/><img src="assets/718ac0b5/btn-download-light.svg" height="36" alt="Download"/></picture></a>
 
 <details>
 <summary><b>자세히 보기</b></summary>
@@ -30,9 +30,9 @@
 
 <br/>
 
-<a href="https://github.com/wlgptjd333/bean-leaf-disease-api"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/d340a4d5/project-beans-dark.svg"/><img src="assets/d340a4d5/project-beans-light.svg" width="100%" alt="02 콩잎 질병 분류 API: 콩잎 사진을 정상 · 각진잎반점병 · 녹병으로 나누는 ResNet-18을 FastAPI 동기 · 비동기 API로 서빙합니다. Test 정확도 97.7%(기준선 71.9%), 동기 API 응답 22 ms"/></picture></a>
+<a href="https://github.com/wlgptjd333/bean-leaf-disease-api"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/718ac0b5/project-beans-dark.svg"/><img src="assets/718ac0b5/project-beans-light.svg" width="100%" alt="02 콩잎 질병 분류 API: 콩잎 사진을 정상 · 각진잎반점병 · 녹병으로 나누는 ResNet-18을 FastAPI 동기 · 비동기 API로 서빙합니다. Test 정확도 97.7%(기준선 71.9%), 동기 API 응답 22 ms"/></picture></a>
 
-<a href="https://github.com/wlgptjd333/bean-leaf-disease-api"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/d340a4d5/btn-github-dark.svg"/><img src="assets/d340a4d5/btn-github-light.svg" height="36" alt="GitHub"/></picture></a>
+<a href="https://github.com/wlgptjd333/bean-leaf-disease-api"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/718ac0b5/btn-github-dark.svg"/><img src="assets/718ac0b5/btn-github-light.svg" height="36" alt="GitHub"/></picture></a>
 
 <details>
 <summary><b>자세히 보기</b></summary>
@@ -47,9 +47,9 @@
 
 <br/>
 
-<a href="https://github.com/wlgptjd333/coin-float"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/d340a4d5/project-coinfloat-dark.svg"/><img src="assets/d340a4d5/project-coinfloat-light.svg" width="100%" alt="03 CoinFloat: 다른 앱 위에 떠 있는 작은 실시간 시세 창입니다. 직접 쓰면서 계속 고쳐 배포하고 있습니다."/></picture></a>
+<a href="https://github.com/wlgptjd333/coin-float"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/718ac0b5/project-coinfloat-dark.svg"/><img src="assets/718ac0b5/project-coinfloat-light.svg" width="100%" alt="03 CoinFloat: 다른 앱 위에 떠 있는 작은 실시간 시세 창입니다. 직접 쓰면서 계속 고쳐 배포하고 있습니다."/></picture></a>
 
-<a href="https://github.com/wlgptjd333/coin-float"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/d340a4d5/btn-github-dark.svg"/><img src="assets/d340a4d5/btn-github-light.svg" height="36" alt="GitHub"/></picture></a> <a href="https://coinfloat.byhyesung.com/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/d340a4d5/btn-website-dark.svg"/><img src="assets/d340a4d5/btn-website-light.svg" height="36" alt="Website"/></picture></a>
+<a href="https://github.com/wlgptjd333/coin-float"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/718ac0b5/btn-github-dark.svg"/><img src="assets/718ac0b5/btn-github-light.svg" height="36" alt="GitHub"/></picture></a> <a href="https://coinfloat.byhyesung.com/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/718ac0b5/btn-website-dark.svg"/><img src="assets/718ac0b5/btn-website-light.svg" height="36" alt="Website"/></picture></a>
 
 <details>
 <summary><b>자세히 보기</b></summary>
@@ -65,10 +65,10 @@
 
 ## 🧩 More
 
-<a href="https://github.com/ariuck/group_3"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/d340a4d5/other-kimchi-dark.svg"/><img src="assets/d340a4d5/other-kimchi-light.svg" width="49%" alt="조각김치 이물 검출 (팀 프로젝트 · 완료): 직접 만든 라벨링 도구로 사진 900장을 교차검수하고 YOLO11 검출 성능을 높였습니다. Validation mAP50–95 0.470 → 0.749"/></picture></a> <a href="https://github.com/wlgptjd333/unmanned-store-anomaly"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/d340a4d5/other-store-dark.svg"/><img src="assets/d340a4d5/other-store-light.svg" width="49%" alt="무인 상점 이상행동 인식 (팀 프로젝트 · 진행 중): CCTV를 가정해 사람의 2D 자세 시퀀스로 기물 파손 · 폭력 · 쓰러짐 같은 동작 17가지를 구분합니다."/></picture></a>
+<a href="https://github.com/ariuck/group_3"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/718ac0b5/other-kimchi-dark.svg"/><img src="assets/718ac0b5/other-kimchi-light.svg" width="49%" alt="조각김치 이물 검출 (팀 프로젝트 · 완료): 직접 만든 라벨링 도구로 사진 900장을 교차검수하고 YOLO11 검출 성능을 높였습니다. Validation mAP50–95 0.470 → 0.749"/></picture></a> <a href="https://github.com/wlgptjd333/unmanned-store-anomaly"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/718ac0b5/other-store-dark.svg"/><img src="assets/718ac0b5/other-store-light.svg" width="49%" alt="무인 상점 이상행동 인식 (팀 프로젝트 · 진행 중): CCTV를 가정해 사람의 2D 자세 시퀀스로 기물 파손 · 폭력 · 쓰러짐 같은 동작 17가지를 구분합니다."/></picture></a>
 
 <br/>
 
 ## 🛠 Tech Stack
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/d340a4d5/stack-dark.svg"/><img src="assets/d340a4d5/stack-light.svg" width="100%" alt="AI · Vision: Python, PyTorch, TensorFlow, MediaPipe, YOLO Pose, OpenCV / Serving: FastAPI, Celery, Redis, PostgreSQL, Docker / App · Game: Godot 4, Kotlin, JavaScript, WebSocket"/></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/718ac0b5/stack-dark.svg"/><img src="assets/718ac0b5/stack-light.svg" width="100%" alt="AI · Vision: Python, PyTorch, TensorFlow, MediaPipe, YOLO Pose, OpenCV / Serving: FastAPI, Celery, Redis, PostgreSQL, Docker / App · Game: Godot 4, Kotlin, JavaScript, WebSocket"/></picture>

@@ -270,7 +270,7 @@ OTHERS = [
     dict(slug="kimchi", emoji="🥬", color="teal", title="조각김치 이물 검출", status="팀 프로젝트 · 완료", live=False,
          lines=["직접 만든 라벨링 도구로 사진 900장을", "교차검수하고 YOLO11 검출 성능을 높였습니다."],
          stat=("0.470 → 0.749", "Validation mAP50–95")),
-    dict(slug="store", emoji="🏪", color="indigo", title="무인 상점 이상행동 인식", status="팀 프로젝트 · 진행 중",
+    dict(slug="store", emoji="🏪", color="indigo", title="무인 상점 이상행동 인식", status="개인 프로젝트 · 진행 중",
          live=True,
          lines=["CCTV를 가정해 사람의 2D 자세 시퀀스로", "기물 파손 · 폭력 · 쓰러짐 같은 동작을 구분합니다."],
          stat=("17가지", "YOLO Pose로 구분할 동작")),
