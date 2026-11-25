@@ -65,7 +65,7 @@
 
 ## 🧩 More
 
-<a href="https://github.com/ariuck/group_3"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/718ac0b5/other-kimchi-dark.svg"/><img src="assets/718ac0b5/other-kimchi-light.svg" width="49%" alt="조각김치 이물 검출 (팀 프로젝트 · 완료): 직접 만든 라벨링 도구로 사진 900장을 교차검수하고 YOLO11 검출 성능을 높였습니다. Validation mAP50–95 0.470 → 0.749"/></picture></a> <a href="https://github.com/wlgptjd333/unmanned-store-anomaly"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/718ac0b5/other-store-dark.svg"/><img src="assets/718ac0b5/other-store-light.svg" width="49%" alt="무인 상점 이상행동 인식 (개인 프로젝트 · 진행 중): CCTV를 가정해 사람의 2D 자세 시퀀스로 기물 파손 · 폭력 · 쓰러짐 같은 동작 17가지를 구분합니다."/></picture></a>
+<a href="https://github.com/ariuck/group_3"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/718ac0b5/other-kimchi-dark.svg"/><img src="assets/718ac0b5/other-kimchi-light.svg" width="49%" alt="조각김치 이물 검출 (팀 프로젝트 · 완료): 직접 만든 라벨링 도구로 사진 900장을 교차검수하고 YOLO11 검출 성능을 높였습니다. Validation mAP50–95 0.470 → 0.749"/></picture></a> <a href="https://github.com/wlgptjd333/store-anomaly-service"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/718ac0b5/other-store-dark.svg"/><img src="assets/718ac0b5/other-store-light.svg" width="49%" alt="무인 상점 이상행동 인식 (개인 프로젝트 · 진행 중): CCTV를 가정해 사람의 2D 자세 시퀀스로 기물 파손 · 폭력 · 쓰러짐 같은 동작 17가지를 구분합니다."/></picture></a>
 
 <br/>
 
